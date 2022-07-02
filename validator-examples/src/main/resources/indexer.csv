@@ -1,0 +1,1391 @@
+SYNC;IDT;1;DDEMDR;8S0;8;Date de la demande;0
+SYNC;IDT;9;CGAG;4S0;4;Code Agence;0
+SYNC;IDT;13;NDEMDR;12S0;12;Num?ro de la demande ;0
+SYNC;IDT;25;ORDRER;29S0;29;No ligne = Ordre de pr?sentation ;0
+SYNC;IDT;54;CDSERV;4A;4;Code serveur;0
+SYNC;IDT;58;USERDR;10A;10;User utilisateur;0
+SYNC;IDT;68;CDAVTR;4A;4;Code fonction;0
+SYNC;IDT;72;CDENRR;4A;4;Code enregistrement;1
+SYNC;IDT;76;DPECTR;8S0;8;Date de prise en compte de l'enregistrement;0
+SYNC;IDT;84;HNOJOB;12S0;12;Num?ro Job;0
+SYNC;IDT;96;IANUPO;11A;11;Num?ro Contrat Externe;1
+SYNC;IDT;107;IWNUPO;8S0;8;Num?ro Contrat Interne;1
+SYNC;IDT;115;IWUCLI;7S0;7;Identit? Client Interne;1
+SYNC;IDT;122;IREFCL;15A;15;R?f?rence Client Externe;1
+SYNC;IDT;137;IWPAID;7S0;7;Identit? Payeur Interne;1
+SYNC;IDT;144;IREFPY;15A;15;R?f?rence Payeur Externe;0
+SYNC;IDT;159;IASSUR;7S0;7;Num?ro Assur? Interne;1
+SYNC;IDT;166;IREFAS;15A;15;Num?ro Assur? Externe;0
+SYNC;IDT;181;IDTASX;7S0;7;Num?ro Assur? Associ? Interne;1
+SYNC;IDT;188;IREFAX;15A;15;Num?ro Assur? Associ? Externe;0
+SYNC;IDT;203;IDXTET;7S0;7;Identit? 2?me T?te Interne;1
+SYNC;IDT;210;IREFDX;15A;15;Identit? 2?me T?te Externe;1
+SYNC;IDT;225;IIDBEN;7S0;7;Identit? B?n?ficiaire;0
+SYNC;IDT;232;IREFBE;15A;15;R?f?rence B?n?ficiaire;0
+SYNC;IDT;247;IWNPLAN;7S0;7;Num?ro convention (plan);1
+SYNC;IDT;254;IWPAID;7S0;7;Num?ro payeur convention (plan);1
+SYNC;IDT;261;IWUCLIP;7S0;7;Num?ro client convention (plan);1
+SYNC;IDT;268;INUCONT;8S0;8;N°contrat entête / chapeau connu du client pour loi PACTE;1
+SYNC;IDT;276;IEVFPO;4A;4;Enveloppe fiscale compartiment (Pacte);1
+SYNC;IDT;280;IFILL1;32A;32;Filler1;0
+SYNC;IDT;312;IWNPRP;8S0;8;Num?ro Proposition;1
+SYNC;IDT;320;FMTFCT;10A;10;Format Fonction;1
+SYNC;IDT;330;INPROG;10A;10;Nom Programme;0
+SYNC;IDT;340;ICDRET;2A;2;Code Retour;1
+SYNC;IDT;342;INIVGR;2S0;2;Niveau Gravit?;1
+SYNC;IDT;344;ICDACT;4A;4;Code Action;1
+SYNC;IDT;348;IWXYAD;15A ;15;Num?ro Identit? Externe;1
+SYNC;IDT;363;ITITAD;3A ;3;Titre Identit? (XVTITRES);1
+SYNC;IDT;366;INOMAD;25A ;25;Nom Identit?;1
+SYNC;IDT;391;IPREAD;25A ;25;Pr?nom Identit?;1
+SYNC;IDT;416;INJFAD;25A ;25;Nom de Jeune Fille;1
+SYNC;IDT;441;INATAD;4A ;4;Nationalit? Identit? (XVNATION);1
+SYNC;IDT;445;IDNAAD;8S0;8;Date Naissance;1
+SYNC;IDT;453;ITYIDE;1A ;1;Type Identit? (I pour interm?diaire sinon A);1
+SYNC;IDT;454;ICPRAD;4A ;4;Code Profession (XVSOCPR1);1
+SYNC;IDT;458;ICPR2D;4A ;4;Code Secteur Activit?s (XVSOCPR2);1
+SYNC;IDT;462;IREGAD;4A ;4;Code R?gion (XVREGION);1
+SYNC;IDT;466;IAD0AD;30A ;30;Adresse 0;1
+SYNC;IDT;496;IAD1AD;30A ;30;Adresse 1;1
+SYNC;IDT;526;IAD2AD;30A ;30;Adresse 2;1
+SYNC;IDT;556;IAD3AD;30A ;30;Adresse 3;1
+SYNC;IDT;586;IAD4AD;30A ;30;Adresse 4;1
+SYNC;IDT;616;INADAD;1A ;1;Nature Adresse (D : domicile P :professionnelle) ;1
+SYNC;IDT;617;ITELAD;18A ;18;T?l?phone 1;1
+SYNC;IDT;635;ITEL2D;18A ;18;T?l?phone 2;1
+SYNC;IDT;653;ITLXAD;13A ;13;T?lex;1
+SYNC;IDT;666;IADEAD;50A ;50;Adresse Electronique;1
+SYNC;IDT;716;ICSTAD;4A ;4;Origine Client;1
+SYNC;IDT;720;IBANXD;25A ;25;RIB;1
+SYNC;IDT;745;IBANCB;4A ;4;Code IBAN;1
+SYNC;IDT;749;IBLBD0;24A ;24;Libell? 0 abr?viatif domiciliation;1
+SYNC;IDT;773;ILN2AD;38A ;38;Lieu de naissance norm?;1
+SYNC;IDT;811;IDSPAD;8S0 ;8;Date d?c?s;1
+SYNC;IDT;819;INHPAD;1A ;1;Top NPAI Adresse;1
+SYNC;IDT;820;FILLER1;1A ;1;Filler1;0
+SYNC;IDT;821;ILNAAD;25A ;25;Num?ro commune + Lieu de naissance;1
+SYNC;IDT;846;ISFAAD;2A ;2;Situation Familiale (XVSITFAM);1
+SYNC;IDT;848;IRGMAD;1A ;1;R?gime Matrimonial (XVREGMAT);1
+SYNC;IDT;849;INENFA;2S0;2;Nombre Enfants;1
+SYNC;IDT;851;INENCA;2S0;2;Nombre Enfant ? charge;1
+SYNC;IDT;853;IPATAD;4A ;4;Patrimoine;1
+SYNC;IDT;857;IREVAD;4A ;4;Revenus;1
+SYNC;IDT;861;IPPEAD;4A ;4;Personne Politiquement Expos?e (PPE);1
+SYNC;IDT;865;IADFI6;2A ;2;Adresse fiscale 6 - Pays de r?sidence fiscal;1
+SYNC;IDT;867;ICIVAD;2A ;2;Civilit? (liste ? d?finir);1
+SYNC;IDT;869;ICPR3D;2A ;2;Situation actuelle (liste ? d?finir);1
+SYNC;IDT;871;ICPR4D;50A ;50;D?tail Profession (texte libre);1
+SYNC;IDT;921;IRPAT1;2A ;2;El?ment patrimoine 1;1
+SYNC;IDT;923;IMTPA1;12A;12;Montant ?l?ment du patrimoine 1;1
+SYNC;IDT;935;IRPAT2;2A ;2;El?ment patrimoine 2;1
+SYNC;IDT;937;IMTPA2;12A;12;Montant ?l?ment du patrimoine 2;1
+SYNC;IDT;949;IRPAT3;2A ;2;El?ment patrimoine 3;1
+SYNC;IDT;951;IMTPA3;12A;12;Montant ?l?ment du patrimoine 3;1
+SYNC;IDT;963;IRPAT4;2A ;2;El?ment patrimoine 4;1
+SYNC;IDT;965;IMTPA4;12A;12;Montant ?l?ment du patrimoine 4;1
+SYNC;IDT;977;IRPAT5;2A ;2;El?ment patrimoine 5;1
+SYNC;IDT;979;IMTPA5;12A;12;Montant ?l?ment du patrimoine 5;1
+SYNC;IDT;991;IRPAT6;2A ;2;El?ment patrimoine 6;1
+SYNC;IDT;993;IMTPA6;12A;12;Montant ?l?ment du patrimoine 6;1
+SYNC;IDT;1005;IRPAT7;2A ;2;El?ment patrimoine 7;1
+SYNC;IDT;1007;IMTPA7;12A;12;Montant ?l?ment du patrimoine 7;1
+SYNC;IDT;1019;IADPO1;38A;38;Adresse Postale 1 - Num appartement, B/L postaux;1
+SYNC;IDT;1057;IADPO2;38A;38;Adresse Postale 2 - B?timent, immeuble, r?sidence postaux;1
+SYNC;IDT;1095;IADPO3;38A;38;Adresse Postale 3 - Num?ro  + Libell? de la voie postaux;1
+SYNC;IDT;1133;IADPO4;38A;38;Adresse Postale 4 - Lieu-dit postal;1
+SYNC;IDT;1171;IADPO5;38A;38;Adresse Postale 5 - CP + Localit? (ou Cedex) postaux;1
+SYNC;IDT;1209;IADPO6;38A;38;Adresse Postale 6 - pays postal;1
+SYNC;IDT;1247;IBICCB;11A;11;Code BIC;1
+SYNC;IDT;1258;ILANGAD;3A ;3;Langue ?dition;1
+SYNC;IDT;1261;IFILL2;7A;4;Filler2;0
+SYNC;IDT;1265;ICODMS;7A ;7;Code Message;1
+SYNC;IDT;1272;IMESGX;100A ;100;Message Retour;1
+SYNC;IDTC;1;DDEMDR;8S0;8;Date de la demande;0
+SYNC;IDTC;9;CGAG;4S0;4;Code Agence;0
+SYNC;IDTC;13;NDEMDR;12S0;12;Num?ro de la demande ;0
+SYNC;IDTC;25;ORDRER;29S0;29;No ligne = Ordre de pr?sentation ;0
+SYNC;IDTC;54;CDSERV;4A;4;Code serveur;0
+SYNC;IDTC;58;USERDR;10A;10;User utilisateur;0
+SYNC;IDTC;68;CDAVTR;4A;4;Code fonction;0
+SYNC;IDTC;72;CDENRR;4A;4;Code enregistrement;1
+SYNC;IDTC;76;DPECTR;8S0;8;Date de prise en compte de l'enregistrement;0
+SYNC;IDTC;84;HNOJOB;12S0;12;Num?ro Job;0
+SYNC;IDTC;96;IMESGX;1276S0;1276;Message Retour;0
+SYNC;IDTC;107;IWNUPO;8S0;8;Numéro Contrat Interne;1
+SYNC;IDTC;115;IWUCLI;7S0;7;Identité Client Interne;1
+SYNC;IDTC;122;IREFCL;15A;15;Référence Client Externe;1
+SYNC;IDTC;137;IWPAID;7S0;7;Identité Payeur Interne;1
+SYNC;IDTC;144;IREFPY;15A;15;Référence Payeur Externe;0
+SYNC;IDTC;159;IASSUR;7S0;7;Numéro Assuré Interne;1
+SYNC;IDTC;166;IREFAS;15A;15;Numéro Assuré Externe;0
+SYNC;IDTC;181;IDTASX;7S0;7;Numéro Assuré Associé Interne;1
+SYNC;IDTC;188;IREFAX;15A;15;Numéro Assuré Associé Externe;0
+SYNC;IDTC;203;IDXTET;7S0;7;Identité 2ème Tête Interne;1
+SYNC;IDTC;210;IREFDX;15A;15;Identité 2ème Tête Externe;1
+SYNC;IDTC;225;IIDBEN;7S0;7;Identité Bénéficiaire;0
+SYNC;IDTC;232;IREFBE;15A;15;Référence Bénéficiaire;0
+SYNC;IDTC;247;IWNPLAN;7S0;7;Numéro convention (plan);1
+SYNC;IDTC;254;IWPAID;7S0;7;Numéro payeur convention (plan);1
+SYNC;IDTC;261;IWUCLIP;7S0;7;Numéro client convention (plan);1
+SYNC;IDTC;268;INUCONT;8S0;8;N°contrat entête / chapeau connu du client pour loi PACTE;1
+SYNC;IDTC;276;IEVFPO;4A;4;Enveloppe fiscale compartiment (Pacte);1
+SYNC;IDTC;280;IFILL1;32A;32;Filler1;0
+SYNC;IDTC;312;IWNPRP;8S0;8;Numéro Proposition;1
+SYNC;IDTC;320;FMTFCT;10A;10;Format Fonction;1
+SYNC;IDTC;330;INPROG;10A;10;Nom Programme;0
+SYNC;IDTC;340;ICDRET;2A;2;Code Retour;1
+SYNC;IDTC;342;INIVGR;2S0;2;Niveau Gravité;1
+SYNC;IDTC;344;ICDACT;4A;4;Code Action;1
+SYNC;IDTC;348;ICPADP;10A ;10;Code postal adresse postale;1
+SYNC;IDTC;358;IVIADP;38A;38;Ville adresse postale;1
+SYNC;IDTC;396;IDEFAF;8S0;8;Date d'effet adresse fiscale;1
+SYNC;IDTC;404;ITPADF;1A;1;Type adresse fiscale;1
+SYNC;IDTC;405;IEN2ADAD;30A ;30;Entête Adresse fiscale;1
+SYNC;IDTC;435;IA2AAD;38A;38;Appt - Etage - Escalier;1
+SYNC;IDTC;473;IA20AD;38A;38;Adresse fiscale 1;1
+SYNC;IDTC;511;IA21AD;38A;38;Adresse fiscale 2;1
+SYNC;IDTC;549;IA22AD;38A;38;Adresse fiscale 3;1
+SYNC;IDTC;587;ICPADF;10A;10;Code postal adresse fiscale;1
+SYNC;IDTC;597;IVIADF;38A;38;Ville adresse fiscale;1
+SYNC;IDTC;635;IA23AD;38A;38;Code postal Ville adresse fiscale;1
+SYNC;IDTC;673;IA24AD;2A;2;Pays adresse fiscale;1
+SYNC;IDTC;675;ITPIEID;1A;1;Type de pièce identité (XVTPIEID);1
+SYNC;IDTC;676;INPIEID;14A;14;Numéro de pièce identité;1
+SYNC;IDTC;690;IDPIEID;8S0;8;Date de délivrance;1
+SYNC;IDTC;698;IDVIEID;8S0;8;Date de validité de la pièce;1
+SYNC;IDTC;706;ILPIEID;32A;32;Libellé lieu de délivrance;1
+SYNC;IDTC;738;ICLACT;1A;1;Code activité (XVCLACT);1
+SYNC;IDTC;739;ICLENP;3A;3;Nombre petits enfants;1
+SYNC;IDTC;742;IPUBAD;1A;1;Pubipostage (OUINON);1
+SYNC;IDTC;743;ICLTYP;1A;1;Type Client;1
+SYNC;IDTC;744;IWNMET;7S0;7;Identité rattachement;1
+SYNC;IDTC;751;ICITAME;1A;1;Citoyen américain (OUINON);1
+SYNC;IDTC;752;IRESAME;1A;1;Résident américain (OUINON);1
+SYNC;IDTC;753;ITINAME;1A;1;Possession d'un TIN (OUINON);1
+SYNC;IDTC;754;INTINAME;11A;11;Numéro de TIN;1
+SYNC;IDTC;765;IPAYSOBL;5A;5;Pays d'obligation fiscale (XVPAYINSEE);1
+SYNC;IDTC;770;INFISCAL;25A ;25;Numéro fiscal;1
+SYNC;IDTC;795;IPAYSOBL2;5A;5;Pays d'obligation fiscale 2 (XVPAYINSEE);1
+SYNC;IDTC;800;INFISCAL2;25A ;25;Numéro fiscal 2;1
+SYNC;IDTC;825;IIMMUSA;1A;1;Immatriculation aux USA;1
+SYNC;IDTC;826;IDSIGCC;8S0;8;Date signature connaissance client;1
+SYNC;IDTC;834;IFPEAD;4A ;4;Fonction PPE (XVFPPEXP);1
+SYNC;IDTC;838;IVIGREN;1A;1;Vigilance renforcée (OUINON);1
+SYNC;IDTC;839;IFAXAD;18A ;18;Tel professionnel;1
+SYNC;IDTC;857;IWXYAD;15A;15;Référence nationale;1
+SYNC;IDTC;872;IDEXRAD;8S0;8;Date exercice fiscal;1
+SYNC;IDTC;880;ISITAD;2A;2;Situation familiale fiscale;1
+SYNC;IDTC;882;IIMPAD;1A;1;Top imposition sur revenus;1
+SYNC;IDTC;883;IIMPOTIS;1A;1;Top imposition sur société;1
+SYNC;IDTC;884;IEXRAD;6S0;6;Exercice fiscal;1
+SYNC;IDTC;890;IMNTREAD;12S2;12;Montant revenu imposable;1
+SYNC;IDTC;902;INUAD2;7S0;7;Rattachement si Collège;1
+SYNC;IDTC;909;IMOTIF;4A ;4;Motif avenant;1
+SYNC;IDTC;913;IFILL2;250A;250;Filler1;0
+SYNC;IDTC;1163;IFILL3;102A;102;Filler2;0
+SYNC;IDTC;1265;ICODMS;7A;7;Code Message;0
+SYNC;IDTC;1272;IMESGX;100A ;100;Message Retour;0
+SYNC;POL;1;DDEMDR;8S0;8;Date de la demande;0
+SYNC;POL;9;CGAG;4S0;4;Code Agence;0
+SYNC;POL;13;NDEMDR;12S0;12;Num?ro de la demande ;0
+SYNC;POL;25;ORDRER;29S0;29;No ligne = Ordre de pr?sentation ;0
+SYNC;POL;54;CDSERV;4A;4;Code serveur;0
+SYNC;POL;58;USERDR;10A;10;User utilisateur;0
+SYNC;POL;68;CDAVTR;4A;4;Code fonction;0
+SYNC;POL;72;CDENRR;4A;4;Code enregistrement;1
+SYNC;POL;76;DPECTR;8S0;8;Date de prise en compte de l'enregistrement;0
+SYNC;POL;84;HNOJOB;12S0;12;Num?ro Job;0
+SYNC;POL;96;IANUPO;11A;11;Num?ro Contrat Externe;1
+SYNC;POL;107;IWNUPO;8S0;8;Num?ro Contrat Interne;1
+SYNC;POL;115;IWUCLI;7S0;7;Identit? Client Interne;1
+SYNC;POL;122;IREFCL;15A;15;R?f?rence Client Externe;1
+SYNC;POL;137;IWPAID;7S0;7;Identit? Payeur Interne;1
+SYNC;POL;144;IREFPY;15A;15;R?f?rence Payeur Externe;0
+SYNC;POL;159;IASSUR;7S0;7;Num?ro Assur? Interne;1
+SYNC;POL;166;IREFAS;15A;15;Num?ro Assur? Externe;0
+SYNC;POL;181;IDTASX;7S0;7;Num?ro Assur? Associ? Interne;1
+SYNC;POL;188;IREFAX;15A;15;Num?ro Assur? Associ? Externe;0
+SYNC;POL;203;IDXTET;7S0;7;Identit? 2?me T?te Interne;1
+SYNC;POL;210;IREFDX;15A;15;Identit? 2?me T?te Externe;1
+SYNC;POL;225;IIDBEN;7S0;7;Identit? B?n?ficiaire;0
+SYNC;POL;232;IREFBE;15A;15;R?f?rence B?n?ficiaire;0
+SYNC;POL;247;IWNPLAN;7S0;7;Num?ro convention (plan);1
+SYNC;POL;254;IWPAID;7S0;7;Num?ro payeur convention (plan);1
+SYNC;POL;261;IWUCLIP;7S0;7;Num?ro client convention (plan);1
+SYNC;POL;268;INUCONT;8S0;8;N°contrat entête / chapeau connu du client pour loi PACTE;1
+SYNC;POL;276;IEVFPO;4A;4;Enveloppe fiscale compartiment (Pacte);1
+SYNC;POL;280;IFILL1;32A;32;Filler1;0
+SYNC;POL;312;IWNPRP;8S0;8;Num?ro Proposition;1
+SYNC;POL;320;FMTFCT;10A;10;Format Fonction;1
+SYNC;POL;330;INPROG;10A;10;Nom Programme;0
+SYNC;POL;340;ICDRET;2A;2;Code Retour;1
+SYNC;POL;342;INIVGR;2S0;2;Niveau Gravit?;1
+SYNC;POL;344;ICDACT;4A;4;Code Action;1
+SYNC;POL;348;IETAPO;2A ;2;Etat Enregistrement;1
+SYNC;POL;350;ITPPOL;1A ;1;Type Contrat I/G;1
+SYNC;POL;351;ICDRED;3A ;3;Code R?dacteur;1
+SYNC;POL;354;ICDGES;3A ;3;Code Gestionnaire;1
+SYNC;POL;357;ICDPRO;4A ;4;Code Produit Interne;1
+SYNC;POL;361;IDDPPO;8S0;8;Date Effet Contrat;1
+SYNC;POL;369;IQUAPO;2S0;2;Quanti?me Contrat;1
+SYNC;POL;371;IMODRG;1A ;1;Mode R?glement (XVMODRGT);1
+SYNC;POL;372;IECHPO;4S0;4;Ech?ance Contrat;1
+SYNC;POL;376;IDURPO;3S0;3;Dur?e Contrat;1
+SYNC;POL;379;IDEVVS;4A ;4;Devise Versement (XVDEVISE);1
+SYNC;POL;383;ITYPEN;1A ;1;Type Encaissement Contrat (XVENCAIS);1
+SYNC;POL;384;IDESQT;1A ;1;Destinataire Quittance (XVDESTIN);1
+SYNC;POL;385;IIDTIT;7S0;7;Identit? Interm?diaire Interne;1
+SYNC;POL;392;IREFIT;10A ;10;R?f?rence Interm?diaire Externe;1
+SYNC;POL;402;ITYPIT;1A ;1;Type Interm?diaire (XVTYPINT);1
+SYNC;POL;403;ITXCC1;7S5;7;Taux Chargements Commercial ;1
+SYNC;POL;410;ITXCC2;7S5;7;Taux Chargements Commercial Arbitrage;1
+SYNC;POL;417;ITXCG3;7S5;7;Taux Chargements Gestion;1
+SYNC;POL;424;ITXCG4;7S5;7;Taux Chargements Gestion Arbitrage;1
+SYNC;POL;431;ICF1PO;7S5;7;Taux  Frais sur en-cours gestion;1
+SYNC;POL;438;ICF2PO;7S5;7;Taux  Frais sur en-cours commercial;1
+SYNC;POL;445;ICF3PO;7S5;7;Coefficient financier;1
+SYNC;POL;452;ICF4PO;7S5;7;Coefficient PB;1
+SYNC;POL;459;IBANXD;25A ;25;RIB contrat;1
+SYNC;POL;484;IBANCB;4A ;4;Code IBAN;1
+SYNC;POL;488;IDEVCP;4A ;4;Devise Compte (XVDEVISE);1
+SYNC;POL;492;IREVAL;1A ;1;Revalorisation O/N;1
+SYNC;POL;493;IDATSG;8S0;8;Date Signature;1
+SYNC;POL;501;IPERVS;1A ;1;Fractionnement (XVPERIO1);1
+SYNC;POL;502;IPMCEN;1A ;1;P?riode Minimale Entr?e (XVPERMIN);1
+SYNC;POL;503;IPMCSO;1A ;1;P?riode Minimale Sortie (XVPERMIN);1
+SYNC;POL;504;ITYPQT;1A ;1;Type Quittancement;1
+SYNC;POL;505;IINDCO;1A ;1;Index Coassurance;1
+SYNC;POL;506;INATPO;1A ;1;Nature Contrat;1
+SYNC;POL;507;INUCT1;5S0;5;Num?ro Contrat 1;1
+SYNC;POL;512;INUCT2;5S0;5;Num?ro Contrat 2;1
+SYNC;POL;517;IPACPO;1A ;1;P?riodicit? Appel Cotisations (XVPERIOD);1
+SYNC;POL;518;ITYCOM;1A ;1;Type Commissionnement;1
+SYNC;POL;519;IINDFD;1A ;1;Indicateur Police Fonds Mutuel;1
+SYNC;POL;520;IEVFPO;4A ;4;Enveloppe Fiscale (XVGARFIS);0
+SYNC;POL;524;IINDRT;1A ;1;Indicateur Rente O/N;1
+SYNC;POL;525;ITR1PO;7S5;7;TAUX 1 TECHNIQUE RENTE;1
+SYNC;POL;532;ITR2PO;7S5;7;TAUX 2 TECHNIQUE RENTE;1
+SYNC;POL;539;ITR3PO;7S5;7;TAUX 3 TECHNIQUE RENTE;1
+SYNC;POL;546;ITR4PO;7S5;7;TAUX 4 TECHNIQUE RENTE;1
+SYNC;POL;553;ITR5PO;7S5;7;TAUX 5 TECHNIQUE RENTE;1
+SYNC;POL;560;ITBRPO;4A ;4;TABLE TAUX RENTE ;1
+SYNC;POL;564;ITV1PO;7S5;7;TAUX 1 REVALORISATION RENTE;1
+SYNC;POL;571;ITV2PO;7S5;7;TAUX 2 REVALORISATION RENTE;1
+SYNC;POL;578;ITV3PO;7S5;7;TAUX 3 REVALORISATION RENTE;1
+SYNC;POL;585;ITV4PO;7S5;7;TAUX 4 REVALORISATION RENTE;1
+SYNC;POL;592;ITV5PO;7S5;7;TAUX 5 REVALORISATION RENTE;1
+SYNC;POL;599;ITBVPO;4A ;4;TABLE TAUX REVALO RENTE;1
+SYNC;POL;603;IDADPO;3S0;3;Dur?e administrative;1
+SYNC;POL;606;INADPO;1A ;1;Nature Dur?e;1
+SYNC;POL;607;IMUTPO;1A ;1;Police mutualis?e;1
+SYNC;POL;608;ICHDPO;1A ;1;Chargement D?gressif;1
+SYNC;POL;609;IDPVST;8S0;8;Date premier versement programm? ou RPP;1
+SYNC;POL;617;IDPREN;3S0;3;Dur?e Paiement Rente;1
+SYNC;POL;620;IPDPAI;1A ;1;P?riodicit? Paiement Rente (XVPERIO1);1
+SYNC;POL;621;IMNTRT;12S2;12;Montant Rente;1
+SYNC;POL;633;IDEVRT;4A ;4;Devise Rente (XVDEVISE);1
+SYNC;POL;637;IRENTE;1A ;1;Type Rente Imm?diate/Diff?r?e;1
+SYNC;POL;638;IVTTPO;12S2;12;TTC Versement Initial;1
+SYNC;POL;650;IVHTPO;12S2;12;HT  Versement Initial;1
+SYNC;POL;662;IMANPO;1A ;1;Mandat de  Gestion;1
+SYNC;POL;663;IARAPO;1A ;1;Arbitrages  Automatiques;1
+SYNC;POL;664;ICOSPO;4A ;4;Type  Co-souscription;1
+SYNC;POL;668;IFISPO;4A ;4;Type de  Fiscalite;1
+SYNC;POL;672;ISCCPO;4A ;4;Sch?ma de  Commission;1
+SYNC;POL;676;IVELPO;1A ;1;Versements  Libres;1
+SYNC;POL;677;IVEPPO;1A ;1;Versements  programm?s;1
+SYNC;POL;678;IARBPO;1A ;1;Arbitrages;1
+SYNC;POL;679;IRAPPO;1A ;1;Rachats  Partiels;1
+SYNC;POL;680;IRPPPO;1A ;1;Rachats  Partiels programm?s;1
+SYNC;POL;681;IRATPO;1A ;1;Rachat Total;1
+SYNC;POL;682;ICBEPO;1A ;1;Changement  B?n?ficiaire;1
+SYNC;POL;683;IAVAPO;1A ;1;Avances;1
+SYNC;POL;684;ICS1PO;4A ;4;Code Stat 1;1
+SYNC;POL;688;ICS2PO;4A ;4;Code Stat 2;1
+SYNC;POL;692;ICS3PO;4A ;4;Code Stat 3;1
+SYNC;POL;696;ICS4PO;4A ;4;Code Stat 4;1
+SYNC;POL;700;ICS5PO;4A ;4;Code Stat 5;1
+SYNC;POL;704;ICA2PO;7S0;7;Code Apporteur 2;1
+SYNC;POL;711;ICA3PO;7S0;7;Code Apporteur 3;1
+SYNC;POL;718;ITY3IT;1A ;1;Type Interm?diaire 3 (XVTYPINT);1
+SYNC;POL;719;ICA4PO;7S0;7;Code Apporteur 4;1
+SYNC;POL;726;ITY4IT;1A ;1;Type Interm?diaire 4 (XVTYPINT);1
+SYNC;POL;727;IRE1PO;5S2;5;% R?partition apporteur 1;1
+SYNC;POL;732;IRE2PO;5S2;5;% R?partition apporteur 2;1
+SYNC;POL;737;IRE3PO;5S2;5;% R?partition apporteur 3;1
+SYNC;POL;742;IRE4PO;5S2;5;% R?partition apporteur 4;1
+SYNC;POL;747;IODURR;10A ;10;Non utilis?;1
+SYNC;POL;757;IATRR;4A ;4;Non utilis?;1
+SYNC;POL;761;ISVRR;4A ;4;Non utilis?;1
+SYNC;POL;765;IRERE;1A ;1;P?riodicit? Rente (XVPERIO1);1
+SYNC;POL;766;IGEEV;3S0;3;Age Terme;1
+SYNC;POL;769;IRO1RR;2A ;2;Non utilis?;1
+SYNC;POL;771;IIER1;7S0;7;Non utilis?;1
+SYNC;POL;778;IIER2;7S0;7;Non utilis?;1
+SYNC;POL;785;IIER3;7S0;7;Non utilis?;1
+SYNC;POL;792;IIER4;7S0;7;Non utilis?;1
+SYNC;POL;799;IIER5;7S0;7;Non utilis?;1
+SYNC;POL;806;IDATED;8S0;8;Date ?dition contrat (ajout au 08-12-05);1
+SYNC;POL;814;IDATER;8S0;8;Date envoi recommand? (ajout au 08-12-05);1
+SYNC;POL;822;IDATAR;8S0;8;Date Accus? de r?ception (ajout au 08-12-05);1
+SYNC;POL;830;IDATES;8S0;8;Date signature adh?sion (ajout au 08-12-05);1
+SYNC;POL;838;IBANQU;5A;5;Code banque d?rog? (ajout du 21-03-06);1
+SYNC;POL;843;IMREPO;1A ;1;Motif de r?siliation (ajout du 20-08-07);1
+SYNC;POL;844;IDRSPO;8A;8;Date de r?siliation (ajout du 20-08-07);1
+SYNC;POL;852;IPLUFS;12A;12;Plus Value Fiscale (ajout du 12-11-07);1
+SYNC;POL;864;IMBTMV ;12A;12;Montant Brut vers? (ajout du 12-11-07);1
+SYNC;POL;876;IMTVMV;12A;12;Montant net vers? (ajout du 12-11-07);1
+SYNC;POL;888;IMBTFI;12A;12;Cumul des versements bruts pour la P?riode DDEBTRFIN - (DFINTRFIN + 1j) (ajout du 08-02-08);1
+SYNC;POL;900;IDDBFI;8A;8;Date d?but P?riode Tracfin : (date traitement - 1 jour) - 1 an (ajout du 08-02-08);1
+SYNC;POL;908;IDFIFI;8A;8;Date fin P?riode Tracfin : date traitement  (ajout du 08-02-08);1
+SYNC;POL;916;INDPLU;1A ;1;Gestion signe zone IPLUFS (D= D?bit, C= Cr?dit) (ajout du 23-05-08);1
+SYNC;POL;917;ITPCTR;4A ;4;Type contrat = standard, handicap;1
+SYNC;POL;921;ITPAYS;4A ;4;Type pays;1
+SYNC;POL;925;IPAYSO;5A;5;Code INSEE du Pays souscription;1
+SYNC;POL;930;ITPSOU;4A ;4;Type souscripteur;1
+SYNC;POL;934;IAFFPO;2A;2;Code pack pr?voyance;1
+SYNC;POL;936;IRESPO;1A;1;Pack avec restriction m?dicale;1
+SYNC;POL;937;IDEFPK;8A;8;Date d'effet du pack;1
+SYNC;POL;945;IDFEPK;8A;8;Date de fin effet du pack;1
+SYNC;POL;953;IEACPO;1A;1;Eligibilit? ? l'avance de commission;1
+SYNC;POL;954;IDESCM;6A;6;Mortalit? rente;1
+SYNC;POL;960;IOPANC;1A;1;Indicateur annuit?s garanties;1
+SYNC;POL;961;IANNRE;4A;4;Ann?e de d?but reconstitution de carri?re;1
+SYNC;POL;965;IANNDE;4A;4;Ann?e fiscale de d?but reconstitution;1
+SYNC;POL;969;IMULTI;3A;3;Coefficient multiplicateur Madelin;1
+SYNC;POL;972;IDPRL1;8A;8;Date de premier pr?l?vement;1
+SYNC;POL;980;IBICCB;11A;11;Code BIC;1
+SYNC;POL;991;IRUM;35A;35;R?f?rence Unique;1
+SYNC;POL;1026;IDSIGN;8A;8;Date de signature Mandat;1
+SYNC;POL;1034;IWCCTIP;9A;9;R?f?rence Contact;1
+SYNC;POL;1043;INADPPO;1A;1;Nature dur?e contrat (ajout d?c 2014);0
+SYNC;POL;1044;IDREEM;1A;1;Indicateur de r?emploi des fonds (ajout d?c 2014);0
+SYNC;POL;1045;IMANDATC;1A;1;Top Mandat civil (ajout mars 2016 Skandia);1
+SYNC;POL;1046;IDSMAN;8S0;8;Date signature mandat civil (ajout mars 2016 Skandia);1
+SYNC;POL;1054;ICDMAND;7A;7;Code mandataire civil (ajout mars 2016);1
+SYNC;POL;1061;IDFIAS;8S0;8;Date?d'effet?fiscale;1
+SYNC;POL;1069;ICONTRA;1A;1;Contrat Transf?r? (O/N);1
+SYNC;POL;1070;IVERB;12S2;12;Primes brutes vers?es avant transfert;1?
+SYNC;POL;1082;IMBVERB;12S2;12;Primes brutes vers?es apr?s transfert;1
+SYNC;POL;1094;IINDFAT;1A;1;Top fonds d'attente (LPS - sept 2017);1
+SYNC;POL;1111;IWNPLAN;7S0;7;Num?ro convention (plan);1
+SYNC;POL;1118;IWPAIDP;7S0;7;Num?ro payeur convention (plan);1
+SYNC;POL;1125;INATSA;4A;4;Cause sinistre;1
+SYNC;POL;1129;ICDSERV;4A ;4;Code service;1
+SYNC;POL;1133;IDTRPC;8A;8;Date réception du dossier complet;1
+SYNC;POL;1141;IFILL2;56A;56;Filler 2;1
+SYNC;POL;1197;IFILL3;68A;68;Filler 3;1
+SYNC;POL;1265;ICODMS;7A ;7;Code Message;1
+SYNC;POL;1272;IMESGX;100A ;100;Message Retour;1
+SYNC;ASS;1;DDEMDR;8S0;8;Date de la demande;0
+SYNC;ASS;9;CGAG;4S0;4;Code Agence;0
+SYNC;ASS;13;NDEMDR;12S0;12;Num?ro de la demande ;0
+SYNC;ASS;25;ORDRER;29S0;29;No ligne = Ordre de pr?sentation ;0
+SYNC;ASS;54;CDSERV;4A;4;Code serveur;0
+SYNC;ASS;58;USERDR;10A;10;User utilisateur;0
+SYNC;ASS;68;CDAVTR;4A;4;Code fonction;0
+SYNC;ASS;72;CDENRR;4A;4;Code enregistrement;1
+SYNC;ASS;76;DPECTR;8S0;8;Date de prise en compte de l'enregistrement;0
+SYNC;ASS;84;HNOJOB;12S0;12;Num?ro Job;0
+SYNC;ASS;96;IANUPO;11A;11;Num?ro Contrat Externe;1
+SYNC;ASS;107;IWNUPO;8S0;8;Num?ro Contrat Interne;1
+SYNC;ASS;115;IWUCLI;7S0;7;Identit? Client Interne;1
+SYNC;ASS;122;IREFCL;15A;15;R?f?rence Client Externe;1
+SYNC;ASS;137;IWPAID;7S0;7;Identit? Payeur Interne;1
+SYNC;ASS;144;IREFPY;15A;15;R?f?rence Payeur Externe;0
+SYNC;ASS;159;IASSUR;7S0;7;Num?ro Assur? Interne;1
+SYNC;ASS;166;IREFAS;15A;15;Num?ro Assur? Externe;0
+SYNC;ASS;181;IDTASX;7S0;7;Num?ro Assur? Associ? Interne;1
+SYNC;ASS;188;IREFAX;15A;15;Num?ro Assur? Associ? Externe;0
+SYNC;ASS;203;IDXTET;7S0;7;Identit? 2?me T?te Interne;1
+SYNC;ASS;210;IREFDX;15A;15;Identit? 2?me T?te Externe;1
+SYNC;ASS;225;IIDBEN;7S0;7;Identit? B?n?ficiaire;0
+SYNC;ASS;232;IREFBE;15A;15;R?f?rence B?n?ficiaire;0
+SYNC;ASS;247;IWNPLAN;7S0;7;Num?ro convention (plan);1
+SYNC;ASS;254;IWPAID;7S0;7;Num?ro payeur convention (plan);1
+SYNC;ASS;261;IWUCLIP;7S0;7;Num?ro client convention (plan);1
+SYNC;ASS;268;INUCONT;8S0;8;N°contrat entête / chapeau connu du client pour loi PACTE;1
+SYNC;ASS;276;IEVFPO;4A;4;Enveloppe fiscale compartiment (Pacte);1
+SYNC;ASS;280;IFILL1;32A;32;Filler1;0
+SYNC;ASS;312;IWNPRP;8S0;8;Num?ro Proposition;1
+SYNC;ASS;320;FMTFCT;10A;10;Format Fonction;1
+SYNC;ASS;330;INPROG;10A;10;Nom Programme;0
+SYNC;ASS;340;ICDRET;2A;2;Code Retour;1
+SYNC;ASS;342;INIVGR;2S0;2;Niveau Gravit?;1
+SYNC;ASS;344;ICDACT;4A;4;Code Action;1
+SYNC;ASS;348;IDADAS;8S0;8;Date Adh?sion;1
+SYNC;ASS;356;IDEFAS;8S0;8;Date d?but Effet;1
+SYNC;ASS;364;IDFEAS;8S0;8;Date Fin Effet;1
+SYNC;ASS;372;IMRGAS;1A ;1;Mode R?glement;1
+SYNC;ASS;373;IPERAS;1A ;1;P?riodicit? (XVPERIOD);1
+SYNC;ASS;374;IADHAS;11A ;11;Num?ro Adh?sion;1
+SYNC;ASS;385;IQUNAS;2S0;2;Quanti?me;1
+SYNC;ASS;387;ITYPAS;1A ;1;Type Assur?;1
+SYNC;ASS;388;IMINCA;12S2;12;Montant incitatif;1
+SYNC;ASS;400;IMTTCA;12S2;12;Prime TTC annuelle;1
+SYNC;ASS;412;ILPAAS;2A ;2;Lien de Parent? (XVPARENT);1
+SYNC;ASS;414;INUADR;7S0;7;Identit? Rattachement Interne;1
+SYNC;ASS;421;INUADX;15A ;15;Identit? Rattachement Externe;1
+SYNC;ASS;436;IDSCAS;8S0;8;Date Signature;1
+SYNC;ASS;444;IAGRAS;2S0;2;Age Aggrav?;1
+SYNC;ASS;446;IECHEN;12A ;12;Ech?ancier 12x1;1
+SYNC;ASS;458;ITXIAS;6S3;6;Taux Surmortalit?;1
+SYNC;ASS;464;IDRFAS;8S0;8;Date anciennet?;1
+SYNC;ASS;472;IDSTAS;8S0;8;Date Sortie Police;1
+SYNC;ASS;480;IMORAS;1A ;1;Motif  Sortie Police (XVSUPRES);1
+SYNC;ASS;481;ICRSAS;2S0;2;% Charges Ressources;1
+SYNC;ASS;483;IAPPAS;2S0;2;% Apport Personnel;1
+SYNC;ASS;485;IID1AS;1A ;1;Indicateur 1;1
+SYNC;ASS;486;IID2AS;1A ;1;Indicateur 2;1
+SYNC;ASS;487;IID3AS;1A ;1;Indicateur 3;1
+SYNC;ASS;488;IID4AS;1A ;1;Indicateur 4;1
+SYNC;ASS;489;IID5AS;1A ;1;Indicateur 5;1
+SYNC;ASS;490;ICD2AS;4A;4;Mandat de gestion;1
+SYNC;ASS;494;IDRNAS;8S0;8;Date renonciation;1
+SYNC;ASS;502;IDFIAS;8A;8;Date d'effet fiscale;1
+SYNC;ASS;510;ICLSAS;1A;1;Classe de cotisation;1
+SYNC;ASS;511;ISTFAS;4A;4;Statut fiscal;1
+SYNC;ASS;515;ISTPAS;4A;4;Statut personnel;1
+SYNC;ASS;519;IRGSAS;4A;4;R?gime social;1
+SYNC;ASS;523;ISCAAS;4A;4;Secteur activit?;1
+SYNC;ASS;527;IMOEXDE;2A;2;Mois exercice fiscal;1
+SYNC;ASS;529;ICD5AS;4A;4;Profil de gestion;1
+SYNC;ASS;533;IFILL2;246A;246;Filler2;0
+SYNC;ASS;779;IFILL3;250A;250;Filler3;0
+SYNC;ASS;1029;IFILL4;236A;236;Filler4;0
+SYNC;ASS;1265;ICODMS;7A;7;Code Message;1
+SYNC;ASS;1272;IMESGX;100A;100;Message Retour;1
+SYNC;ASS;544;IDRTAS;8A;8;Date estimée de départ en retraite;1
+SYNC;ASX;1;DDEMDR;8S0;8;Date de la demande;0
+SYNC;ASX;9;CGAG;4S0;4;Code Agence;0
+SYNC;ASX;13;NDEMDR;12S0;12;Num?ro de la demande ;0
+SYNC;ASX;25;ORDRER;29S0;29;No ligne = Ordre de pr?sentation ;0
+SYNC;ASX;54;CDSERV;4A;4;Code serveur;0
+SYNC;ASX;58;USERDR;10A;10;User utilisateur;0
+SYNC;ASX;68;CDAVTR;4A;4;Code fonction;0
+SYNC;ASX;72;CDENRR;4A;4;Code enregistrement;1
+SYNC;ASX;76;DPECTR;8S0;8;Date de prise en compte de l'enregistrement;0
+SYNC;ASX;84;HNOJOB;12S0;12;Num?ro Job;0
+SYNC;ASX;96;IANUPO;11A;11;Num?ro Contrat Externe;1
+SYNC;ASX;107;IWNUPO;8S0;8;Num?ro Contrat Interne;1
+SYNC;ASX;115;IWUCLI;7S0;7;Identit? Client Interne;1
+SYNC;ASX;122;IREFCL;15A;15;R?f?rence Client Externe;1
+SYNC;ASX;137;IWPAID;7S0;7;Identit? Payeur Interne;1
+SYNC;ASX;144;IREFPY;15A;15;R?f?rence Payeur Externe;0
+SYNC;ASX;159;IASSUR;7S0;7;Num?ro Assur? Interne;1
+SYNC;ASX;166;IREFAS;15A;15;Num?ro Assur? Externe;0
+SYNC;ASX;181;IDTASX;7S0;7;Num?ro Assur? Associ? Interne;1
+SYNC;ASX;188;IREFAX;15A;15;Num?ro Assur? Associ? Externe;0
+SYNC;ASX;203;IDXTET;7S0;7;Identit? 2?me T?te Interne;1
+SYNC;ASX;210;IREFDX;15A;15;Identit? 2?me T?te Externe;1
+SYNC;ASX;225;IIDBEN;7S0;7;Identit? B?n?ficiaire;0
+SYNC;ASX;232;IREFBE;15A;15;R?f?rence B?n?ficiaire;0
+SYNC;ASX;247;IWNPLAN;7S0;7;Num?ro convention (plan);1
+SYNC;ASX;254;IWPAID;7S0;7;Num?ro payeur convention (plan);1
+SYNC;ASX;261;IWUCLIP;7S0;7;Num?ro client convention (plan);1
+SYNC;ASX;268;INUCONT;8S0;8;N°contrat entête / chapeau connu du client pour loi PACTE;1
+SYNC;ASX;276;IEVFPO;4A;4;Enveloppe fiscale compartiment (Pacte);1
+SYNC;ASX;280;IFILL1;32A;32;Filler1;0
+SYNC;ASX;312;IWNPRP;8S0;8;Num?ro Proposition;1
+SYNC;ASX;320;FMTFCT;10A;10;Format Fonction;1
+SYNC;ASX;330;INPROG;10A;10;Nom Programme;0
+SYNC;ASX;340;ICDRET;2A;2;Code Retour;1
+SYNC;ASX;342;INIVGR;2S0;2;Niveau Gravit?;1
+SYNC;ASX;344;ICDACT;4A;4;Code Action;1
+SYNC;ASX;348;IDADAS;8S0;8;Date Adh?sion;1
+SYNC;ASX;356;IDEFAS;8S0;8;Date d?but Effet;1
+SYNC;ASX;364;IDFEAS;8S0;8;Date Fin Effet;1
+SYNC;ASX;372;IMRGAS;1A ;1;Mode R?glement;1
+SYNC;ASX;373;IPERAS;1A ;1;P?riodicit? (XVPERIOD);1
+SYNC;ASX;374;IADHAS;11A ;11;Num?ro Adh?sion;1
+SYNC;ASX;385;IQUNAS;2S0;2;Quanti?me;1
+SYNC;ASX;387;ITYPAS;1A ;1;Type Assur?;1
+SYNC;ASX;388;IMINCA;12S2;12;Montant incitatif;1
+SYNC;ASX;400;IMTTCA;12S2;12;Prime TTC annuelle;1
+SYNC;ASX;412;ILPAAS;2A ;2;Lien de Parent? (XVPARENT);1
+SYNC;ASX;414;INUADR;7S0;7;Identit? Rattachement Interne;1
+SYNC;ASX;421;INUADX;15A ;15;Identit? Rattachement Externe;1
+SYNC;ASX;436;IDSCAS;8S0;8;Date Signature;1
+SYNC;ASX;444;IAGRAS;2S0;2;Age Aggrav?;1
+SYNC;ASX;446;IECHEN;12A ;12;Ech?ancier 12x1;1
+SYNC;ASX;458;ITXIAS;6S3;6;Taux Surmortalit?;1
+SYNC;ASX;464;IDRFAS;8S0;8;Date anciennet?;1
+SYNC;ASX;472;IDSTAS;8S0;8;Date Sortie Police;1
+SYNC;ASX;480;IMORAS;1A ;1;Motif  Sortie Police (XVSUPRES);1
+SYNC;ASX;481;ICRSAS;2S0;2;% Charges Ressources;1
+SYNC;ASX;483;IAPPAS;2S0;2;% Apport Personnel;1
+SYNC;ASX;485;IID1AS;1A ;1;Indicateur 1;1
+SYNC;ASX;486;IID2AS;1A ;1;Indicateur 2;1
+SYNC;ASX;487;IID3AS;1A ;1;Indicateur 3;1
+SYNC;ASX;488;IID4AS;1A ;1;Indicateur 4;1
+SYNC;ASX;489;IID5AS;1A ;1;Indicateur 5;1
+SYNC;ASX;490;ICD2AS;4A;4;Mandat de gestion;1
+SYNC;ASX;494;IDRNAS;8S0;8;Date renonciation;1
+SYNC;ASX;502;IFILL2;246A ;246;Filler2;0
+SYNC;ASX;748;IFILL3;250A ;250;Filler3;0
+SYNC;ASX;998;IFILL4;250A ;250;Filler4;0
+SYNC;ASX;1248;IFILL5;17A;17;Filler5;0
+SYNC;ASX;1265;ICODMS;7A ;7;Code Message;1
+SYNC;ASX;1272;IMESGX;100A ;100;Message Retour;1
+SYNC;BEN;1;DDEMDR;8S0;8;Date de la demande;0
+SYNC;BEN;9;CGAG;4S0;4;Code Agence;0
+SYNC;BEN;13;NDEMDR;12S0;12;Num?ro de la demande ;0
+SYNC;BEN;25;ORDRER;29S0;29;No ligne = Ordre de pr?sentation ;0
+SYNC;BEN;54;CDSERV;4A;4;Code serveur;0
+SYNC;BEN;58;USERDR;10A;10;User utilisateur;0
+SYNC;BEN;68;CDAVTR;4A;4;Code fonction;0
+SYNC;BEN;72;CDENRR;4A;4;Code enregistrement;1
+SYNC;BEN;76;DPECTR;8S0;8;Date de prise en compte de l'enregistrement;0
+SYNC;BEN;84;HNOJOB;12S0;12;Num?ro Job;0
+SYNC;BEN;96;IANUPO;11A;11;Num?ro Contrat Externe;1
+SYNC;BEN;107;IWNUPO;8S0;8;Num?ro Contrat Interne;1
+SYNC;BEN;115;IWUCLI;7S0;7;Identit? Client Interne;1
+SYNC;BEN;122;IREFCL;15A;15;R?f?rence Client Externe;1
+SYNC;BEN;137;IWPAID;7S0;7;Identit? Payeur Interne;1
+SYNC;BEN;144;IREFPY;15A;15;R?f?rence Payeur Externe;0
+SYNC;BEN;159;IASSUR;7S0;7;Num?ro Assur? Interne;1
+SYNC;BEN;166;IREFAS;15A;15;Num?ro Assur? Externe;0
+SYNC;BEN;181;IDTASX;7S0;7;Num?ro Assur? Associ? Interne;1
+SYNC;BEN;188;IREFAX;15A;15;Num?ro Assur? Associ? Externe;0
+SYNC;BEN;203;IDXTET;7S0;7;Identit? 2?me T?te Interne;1
+SYNC;BEN;210;IREFDX;15A;15;Identit? 2?me T?te Externe;1
+SYNC;BEN;225;IIDBEN;7S0;7;Identit? B?n?ficiaire;0
+SYNC;BEN;232;IREFBE;15A;15;R?f?rence B?n?ficiaire;0
+SYNC;BEN;247;IWNPLAN;7S0;7;Num?ro convention (plan);1
+SYNC;BEN;254;IWPAID;7S0;7;Num?ro payeur convention (plan);1
+SYNC;BEN;261;IWUCLIP;7S0;7;Num?ro client convention (plan);1
+SYNC;BEN;268;INUCONT;8S0;8;N°contrat entête / chapeau connu du client pour loi PACTE;1
+SYNC;BEN;276;IEVFPO;4A;4;Enveloppe fiscale compartiment (Pacte);1
+SYNC;BEN;280;IFILL1;32A;32;Filler1;0
+SYNC;BEN;312;IWNPRP;8S0;8;Num?ro Proposition;1
+SYNC;BEN;320;FMTFCT;10A;10;Format Fonction;1
+SYNC;BEN;330;INPROG;10A;10;Nom Programme;0
+SYNC;BEN;340;ICDRET;2A;2;Code Retour;1
+SYNC;BEN;342;INIVGR;2S0;2;Niveau Gravit?;1
+SYNC;BEN;344;ICDACT;4A;4;Code Action;1
+SYNC;BEN;348;ICDBEN;2A ;2;Code B?n?ficiaire;1
+SYNC;BEN;350;INOMBE;25A ;25;Nom B?n?ficiaire;1
+SYNC;BEN;375;IPREBE;25A ;25;Pr?nom B?n?ficiaire;1
+SYNC;BEN;400;ITXBEN;5S2;5;Taux R?partition B?n?ficiaire;1
+SYNC;BEN;405;ITYPRQ;1A ;1;Type Risque (XVSCATRS);1
+SYNC;BEN;406;IFILL2;250A ;250;Filler2;0
+SYNC;BEN;656;IFILL3;250A ;250;Filler3;0
+SYNC;BEN;906;IFILL4;250A ;250;Filler4;0
+SYNC;BEN;1156;IFILL5;109A ;109;Filler5;0
+SYNC;BEN;1265;ICODMS;7A ;7;Code Message;1
+SYNC;BEN;1272;IMESGX;100A ;100;Message Retour;1
+SYNC;GARA;1;DDEMDR;8S0;8;Date de la demande;0
+SYNC;GARA;9;CGAG;4S0;4;Code Agence;0
+SYNC;GARA;13;NDEMDR;12S0;12;Num?ro de la demande ;0
+SYNC;GARA;25;ORDRER;29S0;29;No ligne = Ordre de pr?sentation ;0
+SYNC;GARA;54;CDSERV;4A;4;Code serveur;0
+SYNC;GARA;58;USERDR;10A;10;User utilisateur;0
+SYNC;GARA;68;CDAVTR;4A;4;Code fonction;0
+SYNC;GARA;72;CDENRR;4A;4;Code enregistrement;1
+SYNC;GARA;76;DPECTR;8S0;8;Date de prise en compte de l'enregistrement;0
+SYNC;GARA;84;HNOJOB;12S0;12;Num?ro Job;0
+SYNC;GARA;96;IANUPO;11A;11;Num?ro Contrat Externe;1
+SYNC;GARA;107;IWNUPO;8S0;8;Num?ro Contrat Interne;1
+SYNC;GARA;115;IWUCLI;7S0;7;Identit? Client Interne;1
+SYNC;GARA;122;IREFCL;15A;15;R?f?rence Client Externe;1
+SYNC;GARA;137;IWPAID;7S0;7;Identit? Payeur Interne;1
+SYNC;GARA;144;IREFPY;15A;15;R?f?rence Payeur Externe;0
+SYNC;GARA;159;IASSUR;7S0;7;Num?ro Assur? Interne;1
+SYNC;GARA;166;IREFAS;15A;15;Num?ro Assur? Externe;0
+SYNC;GARA;181;IDTASX;7S0;7;Num?ro Assur? Associ? Interne;1
+SYNC;GARA;188;IREFAX;15A;15;Num?ro Assur? Associ? Externe;0
+SYNC;GARA;203;IDXTET;7S0;7;Identit? 2?me T?te Interne;1
+SYNC;GARA;210;IREFDX;15A;15;Identit? 2?me T?te Externe;1
+SYNC;GARA;225;IIDBEN;7S0;7;Identit? B?n?ficiaire;0
+SYNC;GARA;232;IREFBE;15A;15;R?f?rence B?n?ficiaire;0
+SYNC;GARA;247;IWNPLAN;7S0;7;Num?ro convention (plan);1
+SYNC;GARA;254;IWPAID;7S0;7;Num?ro payeur convention (plan);1
+SYNC;GARA;261;IWUCLIP;7S0;7;Num?ro client convention (plan);1
+SYNC;GARA;268;INUCONT;8S0;8;N°contrat entête / chapeau connu du client pour loi PACTE;1
+SYNC;GARA;276;IEVFPO;4A;4;Enveloppe fiscale compartiment (Pacte);1
+SYNC;GARA;280;IFILL1;32A;32;Filler1;0
+SYNC;GARA;312;IWNPRP;8S0;8;Num?ro Proposition;1
+SYNC;GARA;320;FMTFCT;10A;10;Format Fonction;1
+SYNC;GARA;330;INPROG;10A;10;Nom Programme;0
+SYNC;GARA;340;ICDRET;2A;2;Code Retour;1
+SYNC;GARA;342;INIVGR;2S0;2;Niveau Gravit?;1
+SYNC;GARA;344;ICDACT;4A;4;Code Action;1
+SYNC;GARA;348;ICDPRO;4A ;4;Code Produit Interne;1
+SYNC;GARA;352;ICDGAR;4A ;4;Code Garantie Interne;1
+SYNC;GARA;356;IDURGA;3S0;3;Dur?e Garantie;1
+SYNC;GARA;359;IREFPE;25A ;25;R?f?rence Pr?t Externe;0
+SYNC;GARA;384;IDDIGA;8S0;8;Date d?but Initiale Garantie;1
+SYNC;GARA;392;ICOMGC;7S5;7;Chargement Commercial;1
+SYNC;GARA;399;ISTRGC;7S5;7;Chargement Commercial;1
+SYNC;GARA;406;ICGDGC;7S5;7;Chargement Gestion;1
+SYNC;GARA;413;ICGPGC;7S5;7;Chargement Gestion;1
+SYNC;GARA;420;IC1TAR;4A ;4;Crit?re 1 Tarif;1
+SYNC;GARA;424;IC2TAR;4A ;4;Crit?re 2 Tarif;1
+SYNC;GARA;428;IC3TAR;4A ;4;Crit?re 3 Tarif;1
+SYNC;GARA;432;ICAPBS;12S2;12;Capital De Base;1
+SYNC;GARA;444;IDEVCA;4A ;4;Devise Capital De Base (XVDEVISE);1
+SYNC;GARA;448;IDURPR;3S0;3;Dur?e Paiement Primes;1
+SYNC;GARA;451;ITXREP;8S5;8;Taux R?partition;1
+SYNC;GARA;459;ITXRE2;8S5;8;Taux R?partition p?riodique;1
+SYNC;GARA;467;IQUOTP;3S0;3;Quote-Part;1
+SYNC;GARA;470;IBOGAC;6S3;6;Minoration;1
+SYNC;GARA;476;IMAGAC;6S3;6;Majoration;1
+SYNC;GARA;482;ITXGAC;8S5;8;Taux Garantie;1
+SYNC;GARA;490;IEVFGA;4A ;4;Enveloppe Fiscale (XVGARFIS);1
+SYNC;GARA;494;IRIG06;4A ;4;Risque Exclus;1
+SYNC;GARA;498;IRIG07;4A ;4;Risque Exclus;1
+SYNC;GARA;502;IRIG08;4A ;4;Risque Exclus;1
+SYNC;GARA;506;IRIG09;4A ;4;Risque Exclus;1
+SYNC;GARA;510;IRIG10;4A ;4;Risque Exclus;1
+SYNC;GARA;514;IDFCGA;8S0;8;Date Fin Contrat;1
+SYNC;GARA;522;IMOFGA;1A ;1;Motif Fin Contrat;1
+SYNC;GARA;523;IDFEGA;8S0;8;Date Fin Effet Garantie;1
+SYNC;GARA;531;INODGA;3S0;3;Num?ro ordre garantie;1
+SYNC;GARA;534;ICF1GC;7A ;7;Taux frais sur encours Cie avec 5 chiffres apr?s la virgule (ajout du 12-11-07);1
+SYNC;GARA;541;ICF2GC;7A ;7;Taux frais encours courtier avec 5 chiffres apr?s la virgule (ajout du 12-11-07);1
+SYNC;GARA;548;IFILL2;250A ;250;Filler2;0
+SYNC;GARA;798;IFILL3;250A ;250;Filler3;0
+SYNC;GARA;1048;IFILL4;217A;217;Filler4 (maj du 12-11-07);0
+SYNC;GARA;1265;ICODMS;7A ;7;Code Message;1
+SYNC;GARA;1272;IMESGX;100A ;100;Message Retour;1
+SYNC;SICP;1;DDEMDR;8S0;8;Date de la demande;0
+SYNC;SICP;9;CGAG;4S0;4;Code Agence;0
+SYNC;SICP;13;NDEMDR;12S0;12;Num?ro de la demande ;0
+SYNC;SICP;25;ORDRER;29S0;29;No ligne = Ordre de pr?sentation ;0
+SYNC;SICP;54;CDSERV;4A;4;Code serveur;0
+SYNC;SICP;58;USERDR;10A;10;User utilisateur;0
+SYNC;SICP;68;CDAVTR;4A;4;Code fonction;0
+SYNC;SICP;72;CDENRR;4A;4;Code enregistrement;1
+SYNC;SICP;76;DPECTR;8S0;8;Date de prise en compte de l'enregistrement;0
+SYNC;SICP;84;HNOJOB;12S0;12;Num?ro Job;0
+SYNC;SICP;96;IANUPO;11A;11;Num?ro Contrat Externe;1
+SYNC;SICP;107;IWNUPO;8S0;8;Num?ro Contrat Interne;1
+SYNC;SICP;115;IWUCLI;7S0;7;Identit? Client Interne;1
+SYNC;SICP;122;IREFCL;15A;15;R?f?rence Client Externe;1
+SYNC;SICP;137;IWPAID;7S0;7;Identit? Payeur Interne;1
+SYNC;SICP;144;IREFPY;15A;15;R?f?rence Payeur Externe;0
+SYNC;SICP;159;IASSUR;7S0;7;Num?ro Assur? Interne;1
+SYNC;SICP;166;IREFAS;15A;15;Num?ro Assur? Externe;0
+SYNC;SICP;181;IDTASX;7S0;7;Num?ro Assur? Associ? Interne;1
+SYNC;SICP;188;IREFAX;15A;15;Num?ro Assur? Associ? Externe;0
+SYNC;SICP;203;IDXTET;7S0;7;Identit? 2?me T?te Interne;1
+SYNC;SICP;210;IREFDX;15A;15;Identit? 2?me T?te Externe;1
+SYNC;SICP;225;IIDBEN;7S0;7;Identit? B?n?ficiaire;0
+SYNC;SICP;232;IREFBE;15A;15;R?f?rence B?n?ficiaire;0
+SYNC;SICP;247;IWNPLAN;7S0;7;Num?ro convention (plan);1
+SYNC;SICP;254;IWPAID;7S0;7;Num?ro payeur convention (plan);1
+SYNC;SICP;261;IWUCLIP;7S0;7;Num?ro client convention (plan);1
+SYNC;SICP;268;INUCONT;8S0;8;N°contrat entête / chapeau connu du client pour loi PACTE;1
+SYNC;SICP;276;IEVFPO;4A;4;Enveloppe fiscale compartiment (Pacte);1
+SYNC;SICP;280;IFILL1;32A;32;Filler1;0
+SYNC;SICP;312;IWNPRP;8S0;8;Num?ro Proposition;1
+SYNC;SICP;320;FMTFCT;10A;10;Format Fonction;1
+SYNC;SICP;330;INPROG;10A;10;Nom Programme;0
+SYNC;SICP;340;ICDRET;2A;2;Code Retour;1
+SYNC;SICP;342;INIVGR;2S0;2;Niveau Gravit?;1
+SYNC;SICP;344;ICDACT;4A;4;Code Action;1
+SYNC;SICP;348;IDTVMV;8S0;8;Date de valeur;1
+SYNC;SICP;356;INDDG;1A;1;Indicateur D?tail/global;0
+SYNC;SICP;357;IWIGAR;4A;4;Code garantie;1
+SYNC;SICP;361;IWTCPP;1A;1;Type de compte;0
+SYNC;SICP;362;ICPTEA;12S0;12;Num?ro de compte;1
+SYNC;SICP;374;IWNPRO;4A;4;Code produit;1
+SYNC;SICP;378;INPNCT;2S0;2;Inutilis?;0
+SYNC;SICP;380;IMTNCT;12S2;12;Inutilis?;0
+SYNC;SICP;392;IMTRCT;12S2;12;Inutilis?;0
+SYNC;SICP;404;IDVRRC;4A;4;Devise du compte;0
+SYNC;SICP;408;IDEFCT;8S0;8;Date effet du compte;0
+SYNC;SICP;416;IDFECT;8S0;8;Date fin effet compte;0
+SYNC;SICP;424;IDSPCT;8S0;8;Date de cl?ture provisoire;0
+SYNC;SICP;432;IDEVFI;4A;4;Code UC;0
+SYNC;SICP;436;INBPCT;14S4;14;Nombre de parts;0
+SYNC;SICP;450;IMN1CT;12S;12;Inutilis?;0
+SYNC;SICP;462;IMN2CT;12S2;12;Inutilis?;0
+SYNC;SICP;474;IMN3CT;12S;12;Inutilis?;0
+SYNC;SICP;486;IMN4CT;12S2;12;Inutilis?;0
+SYNC;SICP;498;IMN5CT;12S;12;Inutilis?;0
+SYNC;SICP;510;IMN6CT;12S2;12;Inutilis?;0
+SYNC;SICP;522;IMN7CT;12S;12;Inutilis?;0
+SYNC;SICP;534;IMN8CT;12S2;12;Inutilis?;0
+SYNC;SICP;546;INBTRM;14S4;14;Nombre de parts TERM (en attente de valorisation);1
+SYNC;SICP;560;IMNTRM;12S2;12;Montants TERM (= montant des versements non valoris?s);1
+SYNC;SICP;572;IVALCR;12S5;12;Cours achat;1
+SYNC;SICP;584;IVVLCR;12S5;12;Cours vente;1
+SYNC;SICP;596;IPRMYA;12S5;12;Prix moyen d'achat;1
+SYNC;SICP;608;ISOLDE;12S2;12;Solde du compte = montant de l'encours (n'inclut pas les versements en attente de valorisation);1
+SYNC;SICP;620;INDARB;1A;1;Gestion signe SOLDE et INBPCT (ajout 28-03-2008) - - Valeur D/C  (D= D?bit , C=Cr?dit);0
+SYNC;SICP;621;IDEVCO;4A;4;Devise de cotation;0
+SYNC;SICP;625;ITXCHG;8S5;8;Taux de change;0
+SYNC;SICP;633;IMNCOT;12S2;12;Montant net;0
+SYNC;SICP;645;IPRREV;12S5;12;Prix Revient UC (ajout du 12-11-07);1
+SYNC;SICP;657;ITAUFG;8S5;8;Taux Frais (ajout du 12-11-07);1
+SYNC;SICP;665;ITAUVE;8S5;8;Taux Versement (ajout du 12-11-07);1
+SYNC;SICP;673;ITAUAR;8S5;8;Taux arbitrage (ajout du 12-11-07);0
+SYNC;SICP;681;INBPNE;14S4;14;Nb Parts Nettes (ajout du 12-11-07);1
+SYNC;SICP;695;IPLUFN;12S2;12;Plus Value financi?re (ajout du 12-11-07);0
+SYNC;SICP;707;INDTRM;1A;1;Gestion signe INBTRM et IMNTRM (ajout 28-03-2008)- (D= D?bit , C=Cr?dit);1
+SYNC;SICP;708;IFILL2;187A;187;Filler (maj du 28-03-08);0
+SYNC;SICP;895;IFILL3;250A;250;Filler;0
+SYNC;SICP;1145;IFILL4;120A;120;Filler;0
+SYNC;SICP;1265;ICODMS;7A;7;Code message;1
+SYNC;SICP;1272;IMESGX;100A;100;Message retour;1
+SYNC;MVTF;1;DDEMDR;8S0;8;Date de la demande;0
+SYNC;MVTF;9;CGAG;4S0;4;Code Agence;0
+SYNC;MVTF;13;NDEMDR;12S0;12;Num?ro de la demande ;0
+SYNC;MVTF;25;ORDRER;29S0;29;No ligne = Ordre de pr?sentation ;0
+SYNC;MVTF;54;CDSERV;4A;4;Code serveur;0
+SYNC;MVTF;58;USERDR;10A;10;User utilisateur;0
+SYNC;MVTF;68;CDAVTR;4A;4;Code fonction;0
+SYNC;MVTF;72;CDENRR;4A;4;Code enregistrement;1
+SYNC;MVTF;76;DPECTR;8S0;8;Date de prise en compte de l'enregistrement;0
+SYNC;MVTF;84;HNOJOB;12S0;12;Num?ro Job;0
+SYNC;MVTF;96;IANUPO;11A;11;Num?ro Contrat Externe;1
+SYNC;MVTF;107;IWNUPO;8S0;8;Num?ro Contrat Interne;1
+SYNC;MVTF;115;IWUCLI;7S0;7;Identit? Client Interne;1
+SYNC;MVTF;122;IREFCL;15A;15;R?f?rence Client Externe;1
+SYNC;MVTF;137;IWPAID;7S0;7;Identit? Payeur Interne;1
+SYNC;MVTF;144;IREFPY;15A;15;R?f?rence Payeur Externe;0
+SYNC;MVTF;159;IASSUR;7S0;7;Num?ro Assur? Interne;1
+SYNC;MVTF;166;IREFAS;15A;15;Num?ro Assur? Externe;0
+SYNC;MVTF;181;IDTASX;7S0;7;Num?ro Assur? Associ? Interne;1
+SYNC;MVTF;188;IREFAX;15A;15;Num?ro Assur? Associ? Externe;0
+SYNC;MVTF;203;IDXTET;7S0;7;Identit? 2?me T?te Interne;1
+SYNC;MVTF;210;IREFDX;15A;15;Identit? 2?me T?te Externe;1
+SYNC;MVTF;225;IIDBEN;7S0;7;Identit? B?n?ficiaire;0
+SYNC;MVTF;232;IREFBE;15A;15;R?f?rence B?n?ficiaire;0
+SYNC;MVTF;247;IWNPLAN;7S0;7;Num?ro convention (plan);1
+SYNC;MVTF;254;IWPAID;7S0;7;Num?ro payeur convention (plan);1
+SYNC;MVTF;261;IWUCLIP;7S0;7;Num?ro client convention (plan);1
+SYNC;MVTF;268;INUCONT;8S0;8;N°contrat entête / chapeau connu du client pour loi PACTE;1
+SYNC;MVTF;276;IEVFPO;4A;4;Enveloppe fiscale compartiment (Pacte);1
+SYNC;MVTF;280;IFILL1;32A;32;Filler1;0
+SYNC;MVTF;312;IWNPRP;8S0;8;Num?ro Proposition;1
+SYNC;MVTF;320;FMTFCT;10A;10;Format Fonction;1
+SYNC;MVTF;330;INPROG;10A;10;Nom Programme;0
+SYNC;MVTF;340;ICDRET;2A;2;Code Retour;1
+SYNC;MVTF;342;INIVGR;2S0;2;Niveau Gravit?;1
+SYNC;MVTF;344;ICDACT;4A;4;Code Action;1
+SYNC;MVTF;348;IWNOPE;12S0;12;Num?ro op?ration;1
+SYNC;MVTF;360;ICODEMV;4A;4;Code mouvement;1
+SYNC;MVTF;364;ILIBMV;30A;30;Libell? mouvement;1
+SYNC;MVTF;394;IWTCPP;1A;1;Type de compte;0
+SYNC;MVTF;395;ICPTEA;12S0;12;Num?ro de compte;1
+SYNC;MVTF;407;IWNUCO;8S0;8;Num?ro de quittance;1
+SYNC;MVTF;415;IWNDLI;8S0;8;Num?ro de d?compte;0
+SYNC;MVTF;423;IWNPRO;4A;4;Code produit;1
+SYNC;MVTF;427;IWIGAR;4A;4;Code garantie;1
+SYNC;MVTF;431;IMBTMV;12S2;12;Montant brut;1
+SYNC;MVTF;443;IMTVMV;12S2;12;Montant net;1
+SYNC;MVTF;455;IDEVGT;4A;4;Devise;1
+SYNC;MVTF;459;IVPARM;12S5;12;Valeur de part;1
+SYNC;MVTF;471;INBRPV;14S4;14;Nombre de parts;1
+SYNC;MVTF;485;IINDCM;1A;1;Index D/C;1
+SYNC;MVTF;486;IDTVMV;8S0;8;Date de valeur;1
+SYNC;MVTF;494;IDCPMV;8S0;8;Date de cr?ation;0
+SYNC;MVTF;502;IDEXMV;8S0;8;Date de commande;0
+SYNC;MVTF;510;IWPAID;7S0;7;Num?ro payeur;1
+SYNC;MVTF;517;IWRELE;8S0;8;Num?ro relev? pr?sent dans quittance;1
+SYNC;MVTF;525;IFILL2;42A;42;Filler;0
+SYNC;MVTF;567;ITOPDEDUC;1A;1;Top déductibilité loi Pacte (O / N / blanc);1
+SYNC;MVTF;568;IFILL3;442A;442;Filler;0
+SYNC;MVTF;1010;IFILL4;255A;255;Filler;0
+SYNC;MVTF;1265;ICODMS;7A;7;Code message;1
+SYNC;MVTF;1272;IMESGX;100A;100;Message retour;1
+SYNC;OP;1;DDEMDR;8S0;8;Date de la demande;0
+SYNC;OP;9;CGAG;4S0;4;Code Agence;0
+SYNC;OP;13;NDEMDR;12S0;12;Num?ro de la demande ;0
+SYNC;OP;25;ORDRER;29S0;29;No ligne = Ordre de pr?sentation ;0
+SYNC;OP;54;CDSERV;4A;4;Code serveur;0
+SYNC;OP;58;USERDR;10A;10;User utilisateur;0
+SYNC;OP;68;CDAVTR;4A;4;Code fonction;0
+SYNC;OP;72;CDENRR;4A;4;Code enregistrement;1
+SYNC;OP;76;DPECTR;8S0;8;Date de prise en compte de l'enregistrement;0
+SYNC;OP;84;HNOJOB;12S0;12;Num?ro Job;0
+SYNC;OP;96;IANUPO;11A;11;Num?ro Contrat Externe;1
+SYNC;OP;107;IWNUPO;8S0;8;Num?ro Contrat Interne;1
+SYNC;OP;115;IWUCLI;7S0;7;Identit? Client Interne;1
+SYNC;OP;122;IREFCL;15A;15;R?f?rence Client Externe;1
+SYNC;OP;137;IWPAID;7S0;7;Identit? Payeur Interne;1
+SYNC;OP;144;IREFPY;15A;15;R?f?rence Payeur Externe;0
+SYNC;OP;159;IASSUR;7S0;7;Num?ro Assur? Interne;1
+SYNC;OP;166;IREFAS;15A;15;Num?ro Assur? Externe;0
+SYNC;OP;181;IDTASX;7S0;7;Num?ro Assur? Associ? Interne;1
+SYNC;OP;188;IREFAX;15A;15;Num?ro Assur? Associ? Externe;0
+SYNC;OP;203;IDXTET;7S0;7;Identit? 2?me T?te Interne;1
+SYNC;OP;210;IREFDX;15A;15;Identit? 2?me T?te Externe;1
+SYNC;OP;225;IIDBEN;7S0;7;Identit? B?n?ficiaire;0
+SYNC;OP;232;IREFBE;15A;15;R?f?rence B?n?ficiaire;0
+SYNC;OP;247;IWNPLAN;7S0;7;Num?ro convention (plan);1
+SYNC;OP;254;IWPAID;7S0;7;Num?ro payeur convention (plan);1
+SYNC;OP;261;IWUCLIP;7S0;7;Num?ro client convention (plan);1
+SYNC;OP;268;INUCONT;8S0;8;N°contrat entête / chapeau connu du client pour loi PACTE;1
+SYNC;OP;276;IEVFPO;4A;4;Enveloppe fiscale compartiment (Pacte);1
+SYNC;OP;280;IFILL1;32A;32;Filler1;0
+SYNC;OP;312;IWNPRP;8S0;8;Num?ro Proposition;1
+SYNC;OP;320;FMTFCT;10A;10;Format Fonction;1
+SYNC;OP;330;INPROG;10A;10;Nom Programme;0
+SYNC;OP;340;ICDRET;2A;2;Code Retour;1
+SYNC;OP;342;INIVGR;2S0;2;Niveau Gravit?;1
+SYNC;OP;344;ICDACT;4A;4;Code Action;1
+SYNC;OP;348;INUMER;12S0;12;No quittance / No arbitrage/ No rachat / No mouvement financier;1
+SYNC;OP;360;IDATEO;8S0;8;Date op?ration;1
+SYNC;OP;368;IDTVMV;8S0;8;Date valeur;1
+SYNC;OP;376;ILIBOP ;30A;30;Libell? op?ration;1
+SYNC;OP;406;IMBTMV;12S2;12;Montant brut;1
+SYNC;OP;418;IMTVMV;12S2;12;Montant net;1
+SYNC;OP;430;ITYPVE;1A;1;Type versement (I = Initial, L = Libre, P = programm?, R= remboursement avance, D = prime plancher );1
+SYNC;OP;431;ITYPAR;1A;1;Type arbitrage (L = Client , O = OST - Split -Fusion, P = programm?, M = S?curisation plus value , C = d?tachement coupon, V = distribution dividendes, Y = distribution loyers) (ajout codes au 17-12-10) - E = remboursement obligations (ajout code au 25-08-11);1
+SYNC;OP;432;ITYPRA ;3A;3;Type rachat (PAR = partiel, TOT = Total, AV=avance, DC = rachat suite ? d?c?s, RPP = rachat partiel programm?).  (ajout codes au 17-12-10);1
+SYNC;OP;435;IDINVEST;8S0;8;Date investissement des versements (ajout au 17-12-10);1
+SYNC;OP;443;IDESINVEST;8S0;8;Date d?sinvestissement des fonds suite ? un rachat (ajout au 17-12-10);0
+SYNC;OP;451;IDATREGL;8S0;8;Date de R?glement du rachat partiel (ajout au 17-12-10);1
+SYNC;OP;459;ISINORIGINE;12A;12;Code ISIN origine de la distribution coupons, dividendes, loyers (ajout au 17-12-10);1
+SYNC;OP;471;IWIGARORIGINE;4A;4;Code fonds origine de la distribution coupons, dividendes, loyers (ajout au 17-12-10);1
+SYNC;OP;475;IOBJFND;4A;4;Objectif d'investissement;1
+SYNC;OP;479;IOPATYP;1A;1;Op?ration atypique;1
+SYNC;OP;480;IORIFND1;4A;4;Origine des fonds 1;1
+SYNC;OP;484;IMNTFND1;12S2;12;Montant origine des fonds 1;1
+SYNC;OP;496;IORIFND2;4A;4;Origine des fonds 2;1
+SYNC;OP;500;IMNTFND2;12S2;12;Montant origine des fonds 2;1
+SYNC;OP;512;IORIFND3;4A;4;Origine des fonds 3;1
+SYNC;OP;516;IMNTFND3;12S2;12;Montant origine des fonds 3;1
+SYNC;OP;528;IORIFND4;4A;4;Origine des fonds 4;1
+SYNC;OP;532;IMNTFND4;12S2;12;Montant origine des fonds 4;1
+SYNC;OP;544;IORIFND5;4A;4;Origine des fonds 5;1
+SYNC;OP;548;IMNTFND5;12S2;12;Montant origine des fonds 5;1
+SYNC;OP;560;IORIFND6;4A;4;Origine des fonds 6;1
+SYNC;OP;564;IMNTFND6;12S2;12;Montant origine des fonds 6;1
+SYNC;OP;576;IORIFND7;4A;4;Origine des fonds 7;1
+SYNC;OP;580;IMNTFND7;12S2;12;Montant origine des fonds 7;1
+SYNC;OP;592;IBANEM;34A;34;IBAN ?metteur versement;1
+SYNC;OP;626;INOMEM;50A;50;Nom titulaire compte ?metteur versement;1
+SYNC;OP;676;IDESFND1;3A;3;Destination des fonds 1;1
+SYNC;OP;679;IDMNTFND1;12S2;12;Montant destination des fonds 1;1
+SYNC;OP;691;IDESFND2;3A;3;Destination des fonds 2;1
+SYNC;OP;694;IDMNTFND2;12S2;12;Montant destination des fonds 2;1
+SYNC;OP;706;IDESFND3;3A;3;Destination des fonds 3;1
+SYNC;OP;709;IDMNTFND3;12S2;12;Montant destination des fonds 3;1
+SYNC;OP;721;IDESFND4;3A;3;Destination des fonds 4;1
+SYNC;OP;724;IDMNTFND4;12S2;12;Montant destination des fonds 4;1
+SYNC;OP;736;IDESFND5;3A;3;Destination des fonds 5;1
+SYNC;OP;739;IDMNTFND5;12S2;12;Montant destination des fonds 5;1
+SYNC;OP;751;IDESFND6;3A;3;Destination des fonds 6;1
+SYNC;OP;754;IDMNTFND6;12S2;12;Montant destination des fonds 6;1
+SYNC;OP;766;IDESFND7;3A;3;Destination des fonds 7;1
+SYNC;OP;769;IDMNTFND7;12S2;12;Montant destination des fonds 7;1
+SYNC;OP;781;IBICCB;11A;11;Code BIC;1
+SYNC;OP;792;IFILL4;143A;143;Filler 4;0
+SYNC;OP;935;IETATOP;2A;2;Etat operation;1
+SYNC;OP;937;IFILL5;20A;20;Filler 5;0
+SYNC;OP;957;ITOPDEDUC;1A;1;Top déductibilité loi Pacte (O / N / blanc);1
+SYNC;OP;958;IFILL6;307A;307;Filler 6;0
+SYNC;OP;1265;ICODMS;7A;7;Code message;1
+SYNC;OP;1272;IMESGX;100A;100;Message retour;1
+SYNC;OPTI;1;DDEMDR;8S0;8;Date de la demande;0
+SYNC;OPTI;9;CGAG;4S0;4;Code Agence;0
+SYNC;OPTI;13;NDEMDR;12S0;12;Num?ro de la demande ;0
+SYNC;OPTI;25;ORDRER;29S0;29;No ligne = Ordre de pr?sentation ;0
+SYNC;OPTI;54;CDSERV;4A;4;Code serveur;0
+SYNC;OPTI;58;USERDR;10A;10;User utilisateur;0
+SYNC;OPTI;68;CDAVTR;4A;4;Code fonction;0
+SYNC;OPTI;72;CDENRR;4A;4;Code enregistrement;1
+SYNC;OPTI;76;DPECTR;8S0;8;Date de prise en compte de l'enregistrement;0
+SYNC;OPTI;84;HNOJOB;12S0;12;Num?ro Job;0
+SYNC;OPTI;96;IANUPO;11A;11;Num?ro Contrat Externe;1
+SYNC;OPTI;107;IWNUPO;8S0;8;Num?ro Contrat Interne;1
+SYNC;OPTI;115;IWUCLI;7S0;7;Identit? Client Interne;1
+SYNC;OPTI;122;IREFCL;15A;15;R?f?rence Client Externe;1
+SYNC;OPTI;137;IWPAID;7S0;7;Identit? Payeur Interne;1
+SYNC;OPTI;144;IREFPY;15A;15;R?f?rence Payeur Externe;0
+SYNC;OPTI;159;IASSUR;7S0;7;Num?ro Assur? Interne;1
+SYNC;OPTI;166;IREFAS;15A;15;Num?ro Assur? Externe;0
+SYNC;OPTI;181;IDTASX;7S0;7;Num?ro Assur? Associ? Interne;1
+SYNC;OPTI;188;IREFAX;15A;15;Num?ro Assur? Associ? Externe;0
+SYNC;OPTI;203;IDXTET;7S0;7;Identit? 2?me T?te Interne;1
+SYNC;OPTI;210;IREFDX;15A;15;Identit? 2?me T?te Externe;1
+SYNC;OPTI;225;IIDBEN;7S0;7;Identit? B?n?ficiaire;0
+SYNC;OPTI;232;IREFBE;15A;15;R?f?rence B?n?ficiaire;0
+SYNC;OPTI;247;IWNPLAN;7S0;7;Num?ro convention (plan);1
+SYNC;OPTI;254;IWPAID;7S0;7;Num?ro payeur convention (plan);1
+SYNC;OPTI;261;IWUCLIP;7S0;7;Num?ro client convention (plan);1
+SYNC;OPTI;268;INUCONT;8S0;8;N°contrat entête / chapeau connu du client pour loi PACTE;1
+SYNC;OPTI;276;IEVFPO;4A;4;Enveloppe fiscale compartiment (Pacte);1
+SYNC;OPTI;280;IFILL1;32A;32;Filler1;0
+SYNC;OPTI;312;IWNPRP;8S0;8;Num?ro Proposition;1
+SYNC;OPTI;320;FMTFCT;10A;10;Format Fonction;1
+SYNC;OPTI;330;INPROG;10A;10;Nom Programme;0
+SYNC;OPTI;340;ICDRET;2A;2;Code Retour;1
+SYNC;OPTI;342;INIVGR;2S0;2;Niveau Gravit?;1
+SYNC;OPTI;344;ICDACT;4A;4;Code Action;1
+SYNC;OPTI;348;IPLGAR;1A ;1;Option garantie plancher est souscrite : O/N (option active);1
+SYNC;OPTI;349;IARBPRG;1A;1;Option arbitrage programm?e est souscrite : O/N;1
+SYNC;OPTI;350;IDDEBARB;8S0;8;Date d?but validit? arbitrage programm?;1
+SYNC;OPTI;358;IMNTARB;12S2;12;Montant arbitrage programm? ;1
+SYNC;OPTI;370;IRPP;1A ;1;Option rachat partiel programm? est souscrite : O/N;1
+SYNC;OPTI;371;IMNTRPP;12S2;12;Montant du rachat partiel programm? (syst?matique Fonds euros);1
+SYNC;OPTI;383;IDDEBRPP;8S0;8;Date 1er rachat partiel programm? effectu? ou ? venir;1
+SYNC;OPTI;391;IPLRPP;1A;1;Pr?l?vement lib?ratoire : O/N pour RPP;1
+SYNC;OPTI;392;ISECUVALUE;1A;1;Option s?curisation des plus values est souscrite : O/N;1
+SYNC;OPTI;393;ICD2AS;4A;4;Code de s?curisation des plus values;1
+SYNC;OPTI;397;IVERSPRG;1A;1;Option versement programm?e est souscrite : O/N   (actif);1
+SYNC;OPTI;398;IDDEBVERSTPRG;8S0;8;Date d?but versement programm?;1
+SYNC;OPTI;406;IMNTVERSTPRG;12S2;12;Montant du versement programm?   (montant fractionn?);1
+SYNC;OPTI;418;IPERIODVERSTPRG;1A;1;Fr?quence du versement programm? : A = Annuel, S = semestriel, T = trimestriel, M=Mensuel,  L = Echeancier sur ann?e avec choix des mois ? pr?lever;1
+SYNC;OPTI;419;IECHEANVERSTPRG;12A;12;P sur chaque mois pr?lev? de janvier ? d?cembre et '-' si le mois n'est pas pr?lev? ;0
+SYNC;OPTI;431;IFILL2;250A;250;Filler2;0
+SYNC;OPTI;681;IFILL3;250A ;250;Filler3;0
+SYNC;OPTI;931;IFILL4;250A;250;Filler4;0
+SYNC;OPTI;1181;IFILL5;84A;84;Filler5;0
+SYNC;OPTI;1265;ICODMS;7A ;7;Code Message;1
+SYNC;OPTI;1272;IMESGX;100A ;100;Message Retour;1
+STAT;ZFIN;1;DDEMDR;8S0;8;Date de la demande;0
+STAT;ZFIN;9;CGAG;4S0;4;Code Agence;0
+STAT;ZFIN;13;NDEMDR;12S0;12;Num?ro de la demande ;0
+STAT;ZFIN;25;ORDRER;29S0;29;No ligne = Ordre de pr?sentation ;0
+STAT;ZFIN;54;CDSERV;4A;4;Code serveur;0
+STAT;ZFIN;58;USERDR;10A;10;User utilisateur;0
+STAT;ZFIN;68;CDAVTR;4A;4;Code fonction;0
+STAT;ZFIN;72;CDENRR;4A;4;Code enregistrement;1
+STAT;ZFIN;76;DPECTR;8S0;8;Date de prise en compte de l'enregistrement;0
+STAT;ZFIN;84;HNOJOB;12S0;12;Num?ro Job;0
+STAT;ZFIN;96;IANUPO;11A;11;Num?ro Contrat Externe;1
+STAT;ZFIN;107;IWNUPO;8S0;8;Num?ro Contrat Interne;1
+STAT;ZFIN;115;IWUCLI;7S0;7;Identit? Client Interne;1
+STAT;ZFIN;122;IREFCL;15A;15;R?f?rence Client Externe;1
+STAT;ZFIN;137;IWPAID;7S0;7;Identit? Payeur Interne;1
+STAT;ZFIN;144;IREFPY;15A;15;R?f?rence Payeur Externe;0
+STAT;ZFIN;159;IASSUR;7S0;7;Num?ro Assur? Interne;1
+STAT;ZFIN;166;IREFAS;15A;15;Num?ro Assur? Externe;0
+STAT;ZFIN;181;IWNUCO;8S0;8;Numéro Quittance Interne;1
+STAT;ZFIN;189;IENRGT;8S0;8;Num?ro Assur? Associ? Externe;1
+STAT;ZFIN;197;IWNRGT;13S0;13;Numéro Encaissement Interne;1
+STAT;ZFIN;205;IENUCO;8S0;8;Numero Quittance Externe;1
+STAT;ZFIN;213;INDCH;2A;2;Indicateur chainage;0
+STAT;ZFIN;215;INCHGT;12A;12;N cheque/vire   ment;0
+STAT;ZFIN;227;IFILL1;41A;41;Filler1;0
+STAT;ZFIN;268;INUCONT;8S0;8;N°contrat entête / chapeau connu du client pour loi PACTE;1
+STAT;ZFIN;276;IEVFPO;4A;4;Enveloppe fiscale compartiment (Pacte);1
+STAT;ZFIN;280;IFILL2;11A;11;Filler2;0
+STAT;ZFIN;291;IWNUSI;8S0;8;Numéro Sinistre;1
+STAT;ZFIN;299;IREFSI;10A;10;Réf. Sinistre Externe;1
+STAT;ZFIN;309;IFILL3;3A;3;Filler3;0
+STAT;ZFIN;312;IWNPRP;8S0;8;Num?ro Proposition;1
+STAT;ZFIN;320;FMTFCT;10A;10;Format Fonction;1
+STAT;ZFIN;330;INPROG;10A;10;Nom Programme;0
+STAT;ZFIN;340;ICDRET;2A;2;Code Retour;1
+STAT;ZFIN;342;INIVGR;2S0;2;Niveau Gravit?;1
+STAT;ZFIN;344;ICDACT;4A;4;Code Action;1
+STAT;ZFIN;348;IMESGX;924A;924;Message Retour;1
+STAT;ZFIN;1272;IMESGD;100A ;100;Message Demande;0
+SYNC;IBAN;1;DDEMDR;8S0;8;Date de la demande;0
+SYNC;IBAN;9;CGAG;4S0;4;Code Agence;0
+SYNC;IBAN;13;NDEMDR;12S0;12;Num?ro de la demande ;0
+SYNC;IBAN;25;ORDRER;29S0;29;No ligne = Ordre de pr?sentation ;0
+SYNC;IBAN;54;CDSERV;4A;4;Code serveur;0
+SYNC;IBAN;58;USERDR;10A;10;User utilisateur;0
+SYNC;IBAN;68;CDAVTR;4A;4;Code fonction;0
+SYNC;IBAN;72;CDENRR;4A;4;Code enregistrement;1
+SYNC;IBAN;76;DPECTR;8S0;8;Date de prise en compte de l'enregistrement;0
+SYNC;IBAN;84;HNOJOB;12S0;12;Num?ro Job;0
+SYNC;IBAN;96;IANUPO;11A;11;Num?ro Contrat Externe;1
+SYNC;IBAN;107;IWNUPO;8S0;8;Num?ro Contrat Interne;1
+SYNC;IBAN;115;IWUCLI;7S0;7;Identit? Client Interne;1
+SYNC;IBAN;122;IREFCL;15A;15;R?f?rence Client Externe;1
+SYNC;IBAN;137;IWPAID;7S0;7;Identit? Payeur Interne;1
+SYNC;IBAN;144;IREFPY;15A;15;R?f?rence Payeur Externe;0
+SYNC;IBAN;159;IASSUR;7S0;7;Num?ro Assur? Interne;1
+SYNC;IBAN;166;IREFAS;15A;15;Num?ro Assur? Externe;0
+SYNC;IBAN;181;IDTASX;7S0;7;Num?ro Assur? Associ? Interne;1
+SYNC;IBAN;188;IREFAX;15A;15;Num?ro Assur? Associ? Externe;0
+SYNC;IBAN;203;IDXTET;7S0;7;Identit? 2?me T?te Interne;1
+SYNC;IBAN;210;IREFDX;15A;15;Identit? 2?me T?te Externe;1
+SYNC;IBAN;225;IIDBEN;7S0;7;Identit? B?n?ficiaire;0
+SYNC;IBAN;232;IREFBE;15A;15;R?f?rence B?n?ficiaire;0
+SYNC;IBAN;247;IWNPLAN;7S0;7;Num?ro convention (plan);1
+SYNC;IBAN;254;IWPAID;7S0;7;Num?ro payeur convention (plan);1
+SYNC;IBAN;261;IWUCLIP;7S0;7;Num?ro client convention (plan);1
+SYNC;IBAN;268;INUCONT;8S0;8;N°contrat entête / chapeau connu du client pour loi PACTE;1
+SYNC;IBAN;276;IEVFPO;4A;4;Enveloppe fiscale compartiment (Pacte);1
+SYNC;IBAN;280;IFILL1;32A;32;Filler1;0
+SYNC;IBAN;312;IWNPRP;8S0;8;Num?ro Proposition;1
+SYNC;IBAN;320;FMTFCT;10A;10;Format Fonction;1
+SYNC;IBAN;330;INPROG;10A;10;Nom Programme;0
+SYNC;IBAN;340;ICDRET;2A;2;Code Retour;1
+SYNC;IBAN;342;INIVGR;2S0;2;Niveau Gravit?;1
+SYNC;IBAN;344;ICDACT;4A;4;Code Action;1
+SYNC;IBAN;348;IACTION;1A;1;Code Action;1
+SYNC;IBAN;349;IUSRNCB;1A;1;Usage;1
+SYNC;IBAN;350;IWNUAD;7S0;7;Num?ro d?identit?;1
+SYNC;IBAN;357;IWNUPO;8S0;8;Num?ro de police;1
+SYNC;IBAN;365;IWNUSI;8S0;8;Num?ro de sinistre;1
+SYNC;IBAN;373;IREFSI;10A;10;N? Sinistre externe;1
+SYNC;IBAN;383;IBANXD;25A;25;Num?ro de compte;1
+SYNC;IBAN;408;IBAN;4A;4;Code IBAN (ex?: FR76);1
+SYNC;IBAN;412;IBICCB;11A;11;BIC;1
+SYNC;IBAN;423;IALTI1;30A;30;Libell? 1 Titulaire;1
+SYNC;IBAN;453;IALTI2;30A;30;Libell? 2 Titulaire;1
+SYNC;IBAN;483;IBLBDO;24A;24;DOM libelle;1
+SYNC;IBAN;507;IBLBD1;24A;24;DOM libelle 1;1
+SYNC;IBAN;531;IBLBD2;24A;24;DOM libell? 2;1
+SYNC;IBAN;555;IBANXDN;25A;7;Num?ro de compte;1
+SYNC;IBAN;562;IBANN;4A;7;Code IBAN (ex?: FR76);1
+SYNC;IBAN;569;IBICCBN;11A;7;BIC;1
+SYNC;IBAN;576;IALTI1N;30A;7;Libell? 1 Titulaire;1
+SYNC;IBAN;583;IALTI2N;30A;7;Libell? 2 Titulaire;1
+SYNC;IBAN;590;IBLBDON;24A;24;DOM libelle;1
+SYNC;IBAN;614;IBLBD1N;24A;24;DOM libelle 1;1
+SYNC;IBAN;638;IBLBD2N;24A;24;DOM libell? 2;1
+SYNC;IBAN;662;IFILL1;250A;1;Filler;0
+SYNC;IBAN;912;IFILL2;250A;1;Filler;0
+SYNC;IBAN;1162;IFILL3;38A;4;Filler;0
+SYNC;IBAN;1200;ICODMS;7A;7;Code Message;1
+SYNC;IBAN;1207;IMESGX;100A;100;Message Retour;1
+SYNC;OPPO;1;DDEMDR;8S0;8;Date de la demande;0
+SYNC;OPPO;9;CGAG;4S0;4;Code Agence;0
+SYNC;OPPO;13;NDEMDR;12S0;12;Num?ro de la demande ;0
+SYNC;OPPO;25;ORDRER;29S0;29;No ligne = Ordre de pr?sentation ;0
+SYNC;OPPO;54;CDSERV;4A;4;Code serveur;0
+SYNC;OPPO;58;USERDR;10A;10;User utilisateur;0
+SYNC;OPPO;68;CDAVTR;4A;4;Code fonction;0
+SYNC;OPPO;72;CDENRR;4A;4;Code enregistrement;1
+SYNC;OPPO;76;DPECTR;8S0;8;Date de prise en compte de l'enregistrement;0
+SYNC;OPPO;84;HNOJOB;12S0;12;Num?ro Job;0
+SYNC;OPPO;96;IANUPO;11A;11;Num?ro Contrat Externe;1
+SYNC;OPPO;107;IWNUPO;8S0;8;Num?ro Contrat Interne;1
+SYNC;OPPO;115;IWUCLI;7S0;7;Identit? Client Interne;1
+SYNC;OPPO;122;IREFCL;15A;15;R?f?rence Client Externe;1
+SYNC;OPPO;137;IWPAID;7S0;7;Identit? Payeur Interne;1
+SYNC;OPPO;144;IREFPY;15A;15;R?f?rence Payeur Externe;0
+SYNC;OPPO;159;IASSUR;7S0;7;Num?ro Assur? Interne;1
+SYNC;OPPO;166;IREFAS;15A;15;Num?ro Assur? Externe;0
+SYNC;OPPO;181;IDTASX;7S0;7;Num?ro Assur? Associ? Interne;1
+SYNC;OPPO;188;IREFAX;15A;15;Num?ro Assur? Associ? Externe;0
+SYNC;OPPO;203;IDXTET;7S0;7;Identit? 2?me T?te Interne;1
+SYNC;OPPO;210;IREFDX;15A;15;Identit? 2?me T?te Externe;1
+SYNC;OPPO;225;IIDBEN;7S0;7;Identit? B?n?ficiaire;0
+SYNC;OPPO;232;IREFBE;15A;15;R?f?rence B?n?ficiaire;0
+SYNC;OPPO;247;IWNPLAN;7S0;7;Num?ro convention (plan);1
+SYNC;OPPO;254;IWPAID;7S0;7;Num?ro payeur convention (plan);1
+SYNC;OPPO;261;IWUCLIP;7S0;7;Num?ro client convention (plan);1
+SYNC;OPPO;268;INUCONT;8S0;8;N°contrat entête / chapeau connu du client pour loi PACTE;1
+SYNC;OPPO;276;IEVFPO;4A;4;Enveloppe fiscale compartiment (Pacte);1
+SYNC;OPPO;280;IFILL1;32A;32;Filler1;0
+SYNC;OPPO;312;IWNPRP;8S0;8;Num?ro Proposition;1
+SYNC;OPPO;320;FMTFCT;10A;10;Format Fonction;1
+SYNC;OPPO;330;INPROG;10A;10;Nom Programme;0
+SYNC;OPPO;340;ICDRET;2A;2;Code Retour;1
+SYNC;OPPO;342;INIVGR;2S0;2;Niveau Gravit?;1
+SYNC;OPPO;344;ICDACT;4A;4;Code Action;1
+SYNC;OPPO;348;IOPPO;1A;1;Code opposition;1
+SYNC;OPPO;349;IMNOPO;12S2;12;Montant opposition;1
+SYNC;OPPO;361;IDNNPO;8S0;8;Date d?but opposition;1
+SYNC;OPPO;369;IDFOPP;8S0;8;Date fin opposition;1
+SYNC;OPPO;377;IWNUAV;45A;45;R?f?rence opposition;1
+SYNC;OPPO;422;ITAUPO;8S5;8;Taux opposition;1
+SYNC;OPPO;430;IWNUCT;7S0;7;N?identit? opposition;1
+SYNC;OPPO;437;ITYPCT;2A;2;Type identit? opposition;1
+SYNC;OPPO;439;ICODOP;4A;4;Code fonction;1
+SYNC;OPPO;443;ITPOT;1A;1;Opposition total ou partiel;1
+SYNC;OPPO;444;ITITAD;3A;3;Titre Identit?;1
+SYNC;OPPO;447;INOMAD;25A;25;Nom Identit?;1
+SYNC;OPPO;472;IPREAD;25A;25;Pr?nom Identit?;1
+SYNC;OPPO;497;IDNAAD;8A;8;Date Naissance;1
+SYNC;OPPO;505;IFILL0;10A;10;Filler;0
+SYNC;OPPO;515;IFILL1;250A;250;Filler;0
+SYNC;OPPO;765;IFILL2;250A;250;Filler;0
+SYNC;OPPO;1015;IFILL3;250A;250;Filler;0
+SYNC;OPPO;1265;ICODMS;7A;7;Filler;0
+SYNC;OPPO;1272;IMESGX;100A;100;Filler;0
+SYNC;TXNG;1;DDEMDR;8S0;8;Date de la demande;0
+SYNC;TXNG;9;CGAG;4S0;4;Code Agence;0
+SYNC;TXNG;13;NDEMDR;12S0;12;Num?ro de la demande ;0
+SYNC;TXNG;25;ORDRER;29S0;29;No ligne = Ordre de pr?sentation ;0
+SYNC;TXNG;54;CDSERV;4A;4;Code serveur;0
+SYNC;TXNG;58;USERDR;10A;10;User utilisateur;0
+SYNC;TXNG;68;CDAVTR;4A;4;Code fonction;0
+SYNC;TXNG;72;CDENRR;4A;4;Code enregistrement;1
+SYNC;TXNG;76;DPECTR;8S0;8;Date de prise en compte de l'enregistrement;0
+SYNC;TXNG;84;HNOJOB;12S0;12;Num?ro Job;0
+SYNC;TXNG;96;IANUPO;11A;11;Num?ro Contrat Externe;1
+SYNC;TXNG;107;IWNUPO;8S0;8;Num?ro Contrat Interne;1
+SYNC;TXNG;115;IWUCLI;7S0;7;Identit? Client Interne;1
+SYNC;TXNG;122;IREFCL;15A;15;R?f?rence Client Externe;1
+SYNC;TXNG;137;IWPAID;7S0;7;Identit? Payeur Interne;1
+SYNC;TXNG;144;IREFPY;15A;15;R?f?rence Payeur Externe;0
+SYNC;TXNG;159;IASSUR;7S0;7;Num?ro Assur? Interne;1
+SYNC;TXNG;166;IREFAS;15A;15;Num?ro Assur? Externe;0
+SYNC;TXNG;181;IDTASX;7S0;7;Num?ro Assur? Associ? Interne;1
+SYNC;TXNG;188;IREFAX;15A;15;Num?ro Assur? Associ? Externe;0
+SYNC;TXNG;203;IDXTET;7S0;7;Identit? 2?me T?te Interne;1
+SYNC;TXNG;210;IREFDX;15A;15;Identit? 2?me T?te Externe;1
+SYNC;TXNG;225;IIDBEN;7S0;7;Identit? B?n?ficiaire;0
+SYNC;TXNG;232;IREFBE;15A;15;R?f?rence B?n?ficiaire;0
+SYNC;TXNG;247;IWNPLAN;7S0;7;Num?ro convention (plan);1
+SYNC;TXNG;254;IWPAID;7S0;7;Num?ro payeur convention (plan);1
+SYNC;TXNG;261;IWUCLIP;7S0;7;Num?ro client convention (plan);1
+SYNC;TXNG;268;INUCONT;8S0;8;N°contrat entête / chapeau connu du client pour loi PACTE;1
+SYNC;TXNG;276;IEVFPO;4A;4;Enveloppe fiscale compartiment (Pacte);1
+SYNC;TXNG;280;IFILL1;32A;32;Filler1;0
+SYNC;TXNG;312;IWNPRP;8S0;8;Num?ro Proposition;1
+SYNC;TXNG;320;FMTFCT;10A;10;Format Fonction;1
+SYNC;TXNG;330;INPROG;10A;10;Nom Programme;0
+SYNC;TXNG;340;ICDRET;2A;2;Code Retour;1
+SYNC;TXNG;342;INIVGR;2S0;2;Niveau Gravit?;1
+SYNC;TXNG;344;ICDACT;4A;4;Code Action;1
+SYNC;TXNG;348;ICODTC;4A;4;Code Taux;1
+SYNC;TXNG;352;ITYSTC;1A;1;Type Support;1
+SYNC;TXNG;353;IWIGAR;4A;4;Code Garantie;1
+SYNC;TXNG;357;ITXTOT;8S5;8;Taux Total;1
+SYNC;TXNG;365;ITXGES;8S5;8;Taux Gestion;1
+SYNC;TXNG;373;ITXCOM;8S5;8;Taux Commercial;1
+SYNC;TXNG;381;IFFGES;8S2;8;Forfait Gestion;1
+SYNC;TXNG;389;IFFCOM;8S2;8;Forfait Commercial;1
+SYNC;TXNG;397;IFILL1;88A;88;filler1;0
+SYNC;TXNG;485;IFILL2;250A;250;Filler2;0
+SYNC;TXNG;735;IFILL3;250A;250;Filler3;0
+SYNC;TXNG;985;IFILL4;250A;250;Filler4;0
+SYNC;TXNG;1235;ICODMS;7A;7;Code Message;0
+SYNC;TXNG;1242;IMESGX;100A;100;Message Retour;0
+SYNC;CONV;1;DDEMDR;8S0;8;Date de la demande;0
+SYNC;CONV;9;CGAG;4S0;4;Code Agence;0
+SYNC;CONV;13;NDEMDR;12S0;12;Num?ro de la demande ;0
+SYNC;CONV;25;ORDRER;29S0;29;No ligne = Ordre de pr?sentation ;0
+SYNC;CONV;54;CDSERV;4A;4;Code serveur;0
+SYNC;CONV;58;USERDR;10A;10;User utilisateur;0
+SYNC;CONV;68;CDAVTR;4A;4;Code fonction;0
+SYNC;CONV;72;CDENRR;4A;4;Code enregistrement;1
+SYNC;CONV;76;DPECTR;8S0;8;Date de prise en compte de l'enregistrement;0
+SYNC;CONV;84;HNOJOB;12S0;12;Num?ro Job;0
+SYNC;CONV;96;IANUPO;11A;11;Num?ro Contrat Externe;1
+SYNC;CONV;107;IWNUPO;8S0;8;Num?ro Contrat Interne;1
+SYNC;CONV;115;IWUCLI;7S0;7;Identit? Client Interne;1
+SYNC;CONV;122;IREFCL;15A;15;R?f?rence Client Externe;1
+SYNC;CONV;137;IWPAID;7S0;7;Identit? Payeur Interne;1
+SYNC;CONV;144;IREFPY;15A;15;R?f?rence Payeur Externe;0
+SYNC;CONV;159;IASSUR;7S0;7;Num?ro Assur? Interne;1
+SYNC;CONV;166;IREFAS;15A;15;Num?ro Assur? Externe;0
+SYNC;CONV;181;IDTASX;7S0;7;Num?ro Assur? Associ? Interne;1
+SYNC;CONV;188;IREFAX;15A;15;Num?ro Assur? Associ? Externe;0
+SYNC;CONV;203;IDXTET;7S0;7;Identit? 2?me T?te Interne;1
+SYNC;CONV;210;IREFDX;15A;15;Identit? 2?me T?te Externe;1
+SYNC;CONV;225;IIDBEN;7S0;7;Identit? B?n?ficiaire;0
+SYNC;CONV;232;IREFBE;15A;15;R?f?rence B?n?ficiaire;0
+SYNC;CONV;247;IWNPLAN;7S0;7;Num?ro convention (plan);1
+SYNC;CONV;254;IWPAID;7S0;7;Num?ro payeur convention (plan);1
+SYNC;CONV;261;IWUCLIP;7S0;7;Num?ro client convention (plan);1
+SYNC;CONV;268;INUCONT;8S0;8;N°contrat entête / chapeau connu du client pour loi PACTE;1
+SYNC;CONV;276;IEVFPO;4A;4;Enveloppe fiscale compartiment (Pacte);1
+SYNC;CONV;280;IFILL1;32A;32;Filler1;0
+SYNC;CONV;312;IWNPRP;8S0;8;Num?ro Proposition;1
+SYNC;CONV;320;FMTFCT;10A;10;Format Fonction;1
+SYNC;CONV;330;INPROG;10A;10;Nom Programme;0
+SYNC;CONV;340;ICDRET;2A;2;Code Retour;1
+SYNC;CONV;342;INIVGR;2S0;2;Niveau Gravit?;1
+SYNC;CONV;344;ICDACT;4A;4;Code Action;1
+SYNC;CONV;348;IWNPLAN;7S0;7;N?convention/plan;1
+SYNC;CONV;355;IWUCLI;7S0;7;N?client Sunshine;1
+SYNC;CONV;362;IWPAID;7S0;7;N?payeur Sunshine;1
+SYNC;CONV;369;INOMENT;60A;60;Nom Entreprise cliente;1
+SYNC;CONV;429;IWXYAD1;11A;11;N?SIREN;1
+SYNC;CONV;440;IWXYAD2;11A;11;N? ?tablissement de l?entreprise (NIC);1
+SYNC;CONV;451;IDEFPL;8S0;8;Date d?but effet convention;1
+SYNC;CONV;459;IDFEPL;8S0;8;Date fin effet convention;1
+SYNC;CONV;467;IWNPRO;4A;4;Code produit;1
+SYNC;CONV;471;ITOPSUS;1A;1;Top suspension convention (O/N);1
+SYNC;CONV;472;IDFEYZ;8S0;8;Date d?but suspension convention si convention suspendue;1
+SYNC;CONV;480;IDFEYZ;8S0;8;Date fin suspension convention;1
+SYNC;CONV;488;IMOSPO;1A;1;Motif suspension;1
+SYNC;CONV;489;IWINAG;7S0;7;N? identit? interm?diaire interne;1
+SYNC;CONV;496;IAINAG;10A;10;Code courtier prescripteur;1
+SYNC;CONV;506;IMUTPO;1A;1;Police mutualis?e O/N;1
+SYNC;CONV;507;IOPTFI;4A;4;Profil gestion financi?re choisie;1
+SYNC;CONV;511;ITQUPO;1A;1;Type quittancement;1
+SYNC;CONV;512;IPACPO;1A;1;P?riodicit? quittancement;1
+SYNC;CONV;513;IPVTPO;1A;1;Fractionnement quittancement;1
+SYNC;CONV;514;ITYPAS;1A;1;Type de coll?ge;1
+SYNC;CONV;515;ILIBAS;30A;30;Libell? de coll?ge;1
+SYNC;CONV;545;IDEFAS;8S0;8;Date d?but effet coll?ge;1
+SYNC;CONV;553;ITA;8S5;8;Taux cotisation Tranche A si existe pour ligne active cotisation;1
+SYNC;CONV;561;ITB;8S5;8;Taux cotisation Tranche B si existe pour ligne active cotisation;1
+SYNC;CONV;569;ITC;8S5;8;Taux cotisation Tranche C si existe pour ligne active cotisation;1
+SYNC;CONV;577;ITD;8S5;8;Taux cotisation Tranche D si existe pour ligne active cotisation;1
+SYNC;CONV;585;IFMONT;12S2;12;Montant forfait;1
+SYNC;CONV;597;ITYPTCO;4A;4;Type cotisation pour ligne active;1
+SYNC;CONV;601;IFIIL2;250A;250;Filler2;0
+SYNC;CONV;851;IFILL3 ;250A;250;Filler3;0
+SYNC;CONV;1101;IFILL4;164A;164;Filler4;0
+SYNC;CONV;1265;ICODMS;7A;7;Code Message;0
+SYNC;CONV;1272;IMESGX;100A;100;Message Retour;0
+SYNC;MAND;1;DDEMDR;8S0;8;Date de la demande;0
+SYNC;MAND;9;CGAG;4S0;4;Code Agence;0
+SYNC;MAND;13;NDEMDR;12S0;12;Num?ro de la demande ;0
+SYNC;MAND;25;ORDRER;29S0;29;No ligne = Ordre de pr?sentation ;0
+SYNC;MAND;54;CDSERV;4A;4;Code serveur;0
+SYNC;MAND;58;USERDR;10A;10;User utilisateur;0
+SYNC;MAND;68;CDAVTR;4A;4;Code fonction;0
+SYNC;MAND;72;CDENRR;4A;4;Code enregistrement;1
+SYNC;MAND;76;DPECTR;8S0;8;Date de prise en compte de l'enregistrement;0
+SYNC;MAND;84;HNOJOB;12S0;12;Num?ro Job;0
+SYNC;MAND;96;IANUPO;11A;11;Num?ro Contrat Externe;1
+SYNC;MAND;107;IWNUPO;8S0;8;Num?ro Contrat Interne;1
+SYNC;MAND;115;IWUCLI;7S0;7;Identit? Client Interne;1
+SYNC;MAND;122;IREFCL;15A;15;R?f?rence Client Externe;1
+SYNC;MAND;137;IWPAID;7S0;7;Identit? Payeur Interne;1
+SYNC;MAND;144;IREFPY;15A;15;R?f?rence Payeur Externe;0
+SYNC;MAND;159;IASSUR;7S0;7;Num?ro Assur? Interne;1
+SYNC;MAND;166;IREFAS;15A;15;Num?ro Assur? Externe;0
+SYNC;MAND;181;IDTASX;7S0;7;Num?ro Assur? Associ? Interne;1
+SYNC;MAND;188;IREFAX;15A;15;Num?ro Assur? Associ? Externe;0
+SYNC;MAND;203;IDXTET;7S0;7;Identit? 2?me T?te Interne;1
+SYNC;MAND;210;IREFDX;15A;15;Identit? 2?me T?te Externe;1
+SYNC;MAND;225;IIDBEN;7S0;7;Identit? B?n?ficiaire;0
+SYNC;MAND;232;IREFBE;15A;15;R?f?rence B?n?ficiaire;0
+SYNC;MAND;247;IWNPLAN;7S0;7;Num?ro convention (plan);1
+SYNC;MAND;254;IWPAID;7S0;7;Num?ro payeur convention (plan);1
+SYNC;MAND;261;IWUCLIP;7S0;7;Num?ro client convention (plan);1
+SYNC;MAND;268;INUCONT;8S0;8;N°contrat entête / chapeau connu du client pour loi PACTE;1
+SYNC;MAND;276;IEVFPO;4A;4;Enveloppe fiscale compartiment (Pacte);1
+SYNC;MAND;280;IFILL1;32A;32;Filler1;0
+SYNC;MAND;312;IWNPRP;8S0;8;Num?ro Proposition;1
+SYNC;MAND;320;FMTFCT;10A;10;Format Fonction;1
+SYNC;MAND;330;INPROG;10A;10;Nom Programme;0
+SYNC;MAND;340;ICDRET;2A;2;Code Retour;1
+SYNC;MAND;342;INIVGR;2S0;2;Niveau Gravit?;1
+SYNC;MAND;344;ICDACT;4A;4;Code Action;1
+SYNC;MAND;348;IPRFPO;4A;4;Profil de Gestion;1
+SYNC;MAND;352;IMDGAS;4A;4;Code mandat;1
+SYNC;MAND;356;IDEMAS;8S0;8;Date d?but Effet;1
+SYNC;MAND;364;IDFMAS;8S0;8;Date fin Effet;1
+SYNC;MAND;372;IFILL1;250A;250;Filler;0
+SYNC;MAND;622;IFILL2;250A;250;Filler;0
+SYNC;MAND;872;IFILL3;250A;250;Filler;0
+SYNC;MAND;1122;IFILL5;143A;143;Filler;0
+SYNC;MAND;1265;ICODMS;7A;7;Code Message;0
+SYNC;MAND;1272;IMESGX;100A;100;Message Retour;0
+SYNC;TXCV;1;DDEMDR;8S0;8;Date de la demande;0
+SYNC;TXCV;9;CGAG;4S0;4;Code Agence;0
+SYNC;TXCV;13;NDEMDR;12S0;12;Num?ro de la demande ;0
+SYNC;TXCV;25;ORDRER;29S0;29;No ligne = Ordre de pr?sentation ;0
+SYNC;TXCV;54;CDSERV;4A;4;Code serveur;0
+SYNC;TXCV;58;USERDR;10A;10;User utilisateur;0
+SYNC;TXCV;68;CDAVTR;4A;4;Code fonction;0
+SYNC;TXCV;72;CDENRR;4A;4;Code enregistrement;1
+SYNC;TXCV;76;DPECTR;8S0;8;Date de prise en compte de l'enregistrement;0
+SYNC;TXCV;84;HNOJOB;12S0;12;Num?ro Job;0
+SYNC;TXCV;96;IANUPO;11A;11;Num?ro Contrat Externe;1
+SYNC;TXCV;107;IWNUPO;8S0;8;Num?ro Contrat Interne;1
+SYNC;TXCV;115;IWUCLI;7S0;7;Identit? Client Interne;1
+SYNC;TXCV;122;IREFCL;15A;15;R?f?rence Client Externe;1
+SYNC;TXCV;137;IWPAID;7S0;7;Identit? Payeur Interne;1
+SYNC;TXCV;144;IREFPY;15A;15;R?f?rence Payeur Externe;0
+SYNC;TXCV;159;IASSUR;7S0;7;Num?ro Assur? Interne;1
+SYNC;TXCV;166;IREFAS;15A;15;Num?ro Assur? Externe;0
+SYNC;TXCV;181;IDTASX;7S0;7;Num?ro Assur? Associ? Interne;1
+SYNC;TXCV;188;IREFAX;15A;15;Num?ro Assur? Associ? Externe;0
+SYNC;TXCV;203;IDXTET;7S0;7;Identit? 2?me T?te Interne;1
+SYNC;TXCV;210;IREFDX;15A;15;Identit? 2?me T?te Externe;1
+SYNC;TXCV;225;IIDBEN;7S0;7;Identit? B?n?ficiaire;0
+SYNC;TXCV;232;IREFBE;15A;15;R?f?rence B?n?ficiaire;0
+SYNC;TXCV;247;IWNPLAN;7S0;7;Num?ro convention (plan);1
+SYNC;TXCV;254;IWPAID;7S0;7;Num?ro payeur convention (plan);1
+SYNC;TXCV;261;IWUCLIP;7S0;7;Num?ro client convention (plan);1
+SYNC;TXCV;268;INUCONT;8S0;8;N°contrat entête / chapeau connu du client pour loi PACTE;1
+SYNC;TXCV;276;IEVFPO;4A;4;Enveloppe fiscale compartiment (Pacte);1
+SYNC;TXCV;280;IFILL1;32A;32;Filler1;0
+SYNC;TXCV;312;IWNPRP;8S0;8;Num?ro Proposition;1
+SYNC;TXCV;320;FMTFCT;10A;10;Format Fonction;1
+SYNC;TXCV;330;INPROG;10A;10;Nom Programme;0
+SYNC;TXCV;340;ICDRET;2A;2;Code Retour;1
+SYNC;TXCV;342;INIVGR;2S0;2;Niveau Gravit?;1
+SYNC;TXCV;344;ICDACT;4A;4;Code Action;1
+SYNC;TXCV;348;ICODTC;4A;4;Code Taux;1
+SYNC;TXCV;352;ITYSTC;1A;1;Type Support;1
+SYNC;TXCV;353;IWIGAR;4A;4;Code Garantie;1
+SYNC;TXCV;357;ITXTOT;8S5;8;Taux Total;1
+SYNC;TXCV;365;ITXGES;8S5;8;Taux Gestion;1
+SYNC;TXCV;373;ITXCOM;8S5;8;Taux Commercial;1
+SYNC;TXCV;381;IFFGES;8S2;8;Forfait Gestion;1
+SYNC;TXCV;389;IFFCOM;8S2;8;Forfait Commercial;1
+SYNC;TXCV;397;IFILL1;88A;88;filler1;0
+SYNC;TXCV;485;IFILL2;250A;250;Filler2;0
+SYNC;TXCV;735;IFILL3;250A;250;Filler3;0
+SYNC;TXCV;985;IFILL4;250A;250;Filler4;0
+SYNC;TXCV;1235;ICODMS;7A;7;Code Message;0
+SYNC;TXCV;1242;IMESGX;100A;100;Message Retour;0
+SYNC;PMC;1;DDEMDR;8S0;8;Date de la demande;0
+SYNC;PMC;9;CGAG;4S0;4;Code Agence;0
+SYNC;PMC;13;NDEMDR;12S0;12;Num ro de la demande ;0
+SYNC;PMC;25;ORDRER;29S0;29;No ligne = Ordre de pr sentation ;0
+SYNC;PMC;54;CDSERV;4A;4;Code serveur;0
+SYNC;PMC;58;USERDR;10A;10;User utilisateur;0
+SYNC;PMC;68;CDAVTR;4A;4;Code fonction;0
+SYNC;PMC;72;CDENRR;4A;4;Code enregistrement;1
+SYNC;PMC;76;DPECTR;8S0;8;Date de prise en compte de l'enregistrement;0
+SYNC;PMC;84;HNOJOB;12S0;12;Num ro Job;0
+SYNC;PMC;96;IMESGX;1276S0;1276;Message Retour;0
+SYNC;VLLQ;1;DDEMDR;8S0;8;Date de la demande;0
+SYNC;VLLQ;9;CGAG;4S0;4;Code Agence;0
+SYNC;VLLQ;13;NDEMDR;12S0;12;Num ro de la demande ;0
+SYNC;VLLQ;25;ORDRER;29S0;29;No ligne = Ordre de pr sentation ;0
+SYNC;VLLQ;54;CDSERV;4A;4;Code serveur;0
+SYNC;VLLQ;58;USERDR;10A;10;User utilisateur;0
+SYNC;VLLQ;68;CDAVTR;4A;4;Code fonction;0
+SYNC;VLLQ;72;CDENRR;4A;4;Code enregistrement;1
+SYNC;VLLQ;76;DPECTR;8S0;8;Date de prise en compte de l'enregistrement;0
+SYNC;VLLQ;84;HNOJOB;12S0;12;Num ro Job;0
+SYNC;VLLQ;96;IMESGX;1276S0;1276;Message Retour;0
+SYNC;ECCL;1;DDEMDR;8S0;8;Date de la demande;0
+SYNC;ECCL;9;CGAG;4S0;4;Code Agence;0
+SYNC;ECCL;13;NDEMDR;12S0;12;Num ro de la demande ;0
+SYNC;ECCL;25;ORDRER;29S0;29;No ligne = Ordre de pr sentation ;0
+SYNC;ECCL;54;CDSERV;4A;4;Code serveur;0
+SYNC;ECCL;58;USERDR;10A;10;User utilisateur;0
+SYNC;ECCL;68;CDAVTR;4A;4;Code fonction;0
+SYNC;ECCL;72;CDENRR;4A;4;Code enregistrement;1
+SYNC;ECCL;76;DPECTR;8S0;8;Date de prise en compte de l'enregistrement;0
+SYNC;ECCL;84;HNOJOB;12S0;12;Num ro Job;0
+SYNC;ECCL;96;IMESGX;1276S0;1276;Message Retour;0
+SYNC;ECFA;1;DDEMDR;8S0;8;Date de la demande;0
+SYNC;ECFA;9;CGAG;4S0;4;Code Agence;0
+SYNC;ECFA;13;NDEMDR;12S0;12;Num ro de la demande ;0
+SYNC;ECFA;25;ORDRER;29S0;29;No ligne = Ordre de pr sentation ;0
+SYNC;ECFA;54;CDSERV;4A;4;Code serveur;0
+SYNC;ECFA;58;USERDR;10A;10;User utilisateur;0
+SYNC;ECFA;68;CDAVTR;4A;4;Code fonction;0
+SYNC;ECFA;72;CDENRR;4A;4;Code enregistrement;1
+SYNC;ECFA;76;DPECTR;8S0;8;Date de prise en compte de l'enregistrement;0
+SYNC;ECFA;84;HNOJOB;12S0;12;Num ro Job;0
+SYNC;ECFA;96;IMESGX;1276S0;1276;Message Retour;0
+SYNC;PPGA;1;DDEMDR;8S0;8;Date de la demande;0
+SYNC;PPGA;9;CGAG;4S0;4;Code Agence;0
+SYNC;PPGA;13;NDEMDR;12S0;12;Num ro de la demande ;0
+SYNC;PPGA;25;ORDRER;29S0;29;No ligne = Ordre de pr sentation ;0
+SYNC;PPGA;54;CDSERV;4A;4;Code serveur;0
+SYNC;PPGA;58;USERDR;10A;10;User utilisateur;0
+SYNC;PPGA;68;CDAVTR;4A;4;Code fonction;0
+SYNC;PPGA;72;CDENRR;4A;4;Code enregistrement;1
+SYNC;PPGA;76;DPECTR;8S0;8;Date de prise en compte de l'enregistrement;0
+SYNC;PPGA;84;HNOJOB;12S0;12;Num ro Job;0
+SYNC;PPGA;96;IMESGX;1276S0;1276;Message Retour;0
+SYNC;PGAR;1;DDEMDR;8S0;8;Date de la demande;0
+SYNC;PGAR;9;CGAG;4S0;4;Code Agence;0
+SYNC;PGAR;13;NDEMDR;12S0;12;Num ro de la demande ;0
+SYNC;PGAR;25;ORDRER;29S0;29;No ligne = Ordre de pr sentation ;0
+SYNC;PGAR;54;CDSERV;4A;4;Code serveur;0
+SYNC;PGAR;58;USERDR;10A;10;User utilisateur;0
+SYNC;PGAR;68;CDAVTR;4A;4;Code fonction;0
+SYNC;PGAR;72;CDENRR;4A;4;Code enregistrement;1
+SYNC;PGAR;76;DPECTR;8S0;8;Date de prise en compte de l'enregistrement;0
+SYNC;PGAR;84;HNOJOB;12S0;12;Num ro Job;0
+SYNC;PGAR;96;IMESGX;1276S0;1276;Message Retour;0
+SYNC;PPRD;1;DDEMDR;8S0;8;Date de la demande;0
+SYNC;PPRD;9;CGAG;4S0;4;Code Agence;0
+SYNC;PPRD;13;NDEMDR;12S0;12;Num ro de la demande ;0
+SYNC;PPRD;25;ORDRER;29S0;29;No ligne = Ordre de pr sentation ;0
+SYNC;PPRD;54;CDSERV;4A;4;Code serveur;0
+SYNC;PPRD;58;USERDR;10A;10;User utilisateur;0
+SYNC;PPRD;68;CDAVTR;4A;4;Code fonction;0
+SYNC;PPRD;72;CDENRR;4A;4;Code enregistrement;1
+SYNC;PPRD;76;DPECTR;8S0;8;Date de prise en compte de l'enregistrement;0
+SYNC;PPRD;84;HNOJOB;12S0;12;Num ro Job;0
+SYNC;PPRD;96;IMESGX;1276S0;1276;Message Retour;0
