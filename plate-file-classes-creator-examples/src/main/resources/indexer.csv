@@ -25,7 +25,7 @@ SYNC;IDT;232;IREFBE;15A;15;R?f?rence B?n?ficiaire;0
 SYNC;IDT;247;IWNPLAN;7S0;7;Num?ro convention (plan);1
 SYNC;IDT;254;IWPAID;7S0;7;Num?ro payeur convention (plan);1
 SYNC;IDT;261;IWUCLIP;7S0;7;Num?ro client convention (plan);1
-SYNC;IDT;268;INUCONT;8S0;8;N°contrat entête / chapeau connu du client pour loi PACTE;1
+SYNC;IDT;268;INUCONT;8S0;8;Nï¿½contrat entï¿½te / chapeau connu du client pour loi PACTE;1
 SYNC;IDT;276;IEVFPO;4A;4;Enveloppe fiscale compartiment (Pacte);1
 SYNC;IDT;280;IFILL1;32A;32;Filler1;0
 SYNC;IDT;312;IWNPRP;8S0;8;Num?ro Proposition;1
@@ -111,36 +111,36 @@ SYNC;IDTC;72;CDENRR;4A;4;Code enregistrement;1
 SYNC;IDTC;76;DPECTR;8S0;8;Date de prise en compte de l'enregistrement;0
 SYNC;IDTC;84;HNOJOB;12S0;12;Num?ro Job;0
 SYNC;IDTC;96;IMESGX;1276S0;1276;Message Retour;0
-SYNC;IDTC;107;IWNUPO;8S0;8;Numéro Contrat Interne;1
-SYNC;IDTC;115;IWUCLI;7S0;7;Identité Client Interne;1
-SYNC;IDTC;122;IREFCL;15A;15;Référence Client Externe;1
-SYNC;IDTC;137;IWPAID;7S0;7;Identité Payeur Interne;1
-SYNC;IDTC;144;IREFPY;15A;15;Référence Payeur Externe;0
-SYNC;IDTC;159;IASSUR;7S0;7;Numéro Assuré Interne;1
-SYNC;IDTC;166;IREFAS;15A;15;Numéro Assuré Externe;0
-SYNC;IDTC;181;IDTASX;7S0;7;Numéro Assuré Associé Interne;1
-SYNC;IDTC;188;IREFAX;15A;15;Numéro Assuré Associé Externe;0
-SYNC;IDTC;203;IDXTET;7S0;7;Identité 2ème Tête Interne;1
-SYNC;IDTC;210;IREFDX;15A;15;Identité 2ème Tête Externe;1
-SYNC;IDTC;225;IIDBEN;7S0;7;Identité Bénéficiaire;0
-SYNC;IDTC;232;IREFBE;15A;15;Référence Bénéficiaire;0
-SYNC;IDTC;247;IWNPLAN;7S0;7;Numéro convention (plan);1
-SYNC;IDTC;254;IWPAID;7S0;7;Numéro payeur convention (plan);1
-SYNC;IDTC;261;IWUCLIP;7S0;7;Numéro client convention (plan);1
-SYNC;IDTC;268;INUCONT;8S0;8;N°contrat entête / chapeau connu du client pour loi PACTE;1
+SYNC;IDTC;107;IWNUPO;8S0;8;Numï¿½ro Contrat Interne;1
+SYNC;IDTC;115;IWUCLI;7S0;7;Identitï¿½ Client Interne;1
+SYNC;IDTC;122;IREFCL;15A;15;Rï¿½fï¿½rence Client Externe;1
+SYNC;IDTC;137;IWPAID;7S0;7;Identitï¿½ Payeur Interne;1
+SYNC;IDTC;144;IREFPY;15A;15;Rï¿½fï¿½rence Payeur Externe;0
+SYNC;IDTC;159;IASSUR;7S0;7;Numï¿½ro Assurï¿½ Interne;1
+SYNC;IDTC;166;IREFAS;15A;15;Numï¿½ro Assurï¿½ Externe;0
+SYNC;IDTC;181;IDTASX;7S0;7;Numï¿½ro Assurï¿½ Associï¿½ Interne;1
+SYNC;IDTC;188;IREFAX;15A;15;Numï¿½ro Assurï¿½ Associï¿½ Externe;0
+SYNC;IDTC;203;IDXTET;7S0;7;Identitï¿½ 2ï¿½me Tï¿½te Interne;1
+SYNC;IDTC;210;IREFDX;15A;15;Identitï¿½ 2ï¿½me Tï¿½te Externe;1
+SYNC;IDTC;225;IIDBEN;7S0;7;Identitï¿½ Bï¿½nï¿½ficiaire;0
+SYNC;IDTC;232;IREFBE;15A;15;Rï¿½fï¿½rence Bï¿½nï¿½ficiaire;0
+SYNC;IDTC;247;IWNPLAN;7S0;7;Numï¿½ro convention (plan);1
+SYNC;IDTC;254;IWPAID;7S0;7;Numï¿½ro payeur convention (plan);1
+SYNC;IDTC;261;IWUCLIP;7S0;7;Numï¿½ro client convention (plan);1
+SYNC;IDTC;268;INUCONT;8S0;8;Nï¿½contrat entï¿½te / chapeau connu du client pour loi PACTE;1
 SYNC;IDTC;276;IEVFPO;4A;4;Enveloppe fiscale compartiment (Pacte);1
 SYNC;IDTC;280;IFILL1;32A;32;Filler1;0
-SYNC;IDTC;312;IWNPRP;8S0;8;Numéro Proposition;1
+SYNC;IDTC;312;IWNPRP;8S0;8;Numï¿½ro Proposition;1
 SYNC;IDTC;320;FMTFCT;10A;10;Format Fonction;1
 SYNC;IDTC;330;INPROG;10A;10;Nom Programme;0
 SYNC;IDTC;340;ICDRET;2A;2;Code Retour;1
-SYNC;IDTC;342;INIVGR;2S0;2;Niveau Gravité;1
+SYNC;IDTC;342;INIVGR;2S0;2;Niveau Gravitï¿½;1
 SYNC;IDTC;344;ICDACT;4A;4;Code Action;1
 SYNC;IDTC;348;ICPADP;10A ;10;Code postal adresse postale;1
 SYNC;IDTC;358;IVIADP;38A;38;Ville adresse postale;1
 SYNC;IDTC;396;IDEFAF;8S0;8;Date d'effet adresse fiscale;1
 SYNC;IDTC;404;ITPADF;1A;1;Type adresse fiscale;1
-SYNC;IDTC;405;IEN2ADAD;30A ;30;Entête Adresse fiscale;1
+SYNC;IDTC;405;IEN2ADAD;30A ;30;Entï¿½te Adresse fiscale;1
 SYNC;IDTC;435;IA2AAD;38A;38;Appt - Etage - Escalier;1
 SYNC;IDTC;473;IA20AD;38A;38;Adresse fiscale 1;1
 SYNC;IDTC;511;IA21AD;38A;38;Adresse fiscale 2;1
@@ -149,37 +149,37 @@ SYNC;IDTC;587;ICPADF;10A;10;Code postal adresse fiscale;1
 SYNC;IDTC;597;IVIADF;38A;38;Ville adresse fiscale;1
 SYNC;IDTC;635;IA23AD;38A;38;Code postal Ville adresse fiscale;1
 SYNC;IDTC;673;IA24AD;2A;2;Pays adresse fiscale;1
-SYNC;IDTC;675;ITPIEID;1A;1;Type de pièce identité (XVTPIEID);1
-SYNC;IDTC;676;INPIEID;14A;14;Numéro de pièce identité;1
-SYNC;IDTC;690;IDPIEID;8S0;8;Date de délivrance;1
-SYNC;IDTC;698;IDVIEID;8S0;8;Date de validité de la pièce;1
-SYNC;IDTC;706;ILPIEID;32A;32;Libellé lieu de délivrance;1
-SYNC;IDTC;738;ICLACT;1A;1;Code activité (XVCLACT);1
+SYNC;IDTC;675;ITPIEID;1A;1;Type de piï¿½ce identitï¿½ (XVTPIEID);1
+SYNC;IDTC;676;INPIEID;14A;14;Numï¿½ro de piï¿½ce identitï¿½;1
+SYNC;IDTC;690;IDPIEID;8S0;8;Date de dï¿½livrance;1
+SYNC;IDTC;698;IDVIEID;8S0;8;Date de validitï¿½ de la piï¿½ce;1
+SYNC;IDTC;706;ILPIEID;32A;32;Libellï¿½ lieu de dï¿½livrance;1
+SYNC;IDTC;738;ICLACT;1A;1;Code activitï¿½ (XVCLACT);1
 SYNC;IDTC;739;ICLENP;3A;3;Nombre petits enfants;1
 SYNC;IDTC;742;IPUBAD;1A;1;Pubipostage (OUINON);1
 SYNC;IDTC;743;ICLTYP;1A;1;Type Client;1
-SYNC;IDTC;744;IWNMET;7S0;7;Identité rattachement;1
-SYNC;IDTC;751;ICITAME;1A;1;Citoyen américain (OUINON);1
-SYNC;IDTC;752;IRESAME;1A;1;Résident américain (OUINON);1
+SYNC;IDTC;744;IWNMET;7S0;7;Identitï¿½ rattachement;1
+SYNC;IDTC;751;ICITAME;1A;1;Citoyen amï¿½ricain (OUINON);1
+SYNC;IDTC;752;IRESAME;1A;1;Rï¿½sident amï¿½ricain (OUINON);1
 SYNC;IDTC;753;ITINAME;1A;1;Possession d'un TIN (OUINON);1
-SYNC;IDTC;754;INTINAME;11A;11;Numéro de TIN;1
+SYNC;IDTC;754;INTINAME;11A;11;Numï¿½ro de TIN;1
 SYNC;IDTC;765;IPAYSOBL;5A;5;Pays d'obligation fiscale (XVPAYINSEE);1
-SYNC;IDTC;770;INFISCAL;25A ;25;Numéro fiscal;1
+SYNC;IDTC;770;INFISCAL;25A ;25;Numï¿½ro fiscal;1
 SYNC;IDTC;795;IPAYSOBL2;5A;5;Pays d'obligation fiscale 2 (XVPAYINSEE);1
-SYNC;IDTC;800;INFISCAL2;25A ;25;Numéro fiscal 2;1
+SYNC;IDTC;800;INFISCAL2;25A ;25;Numï¿½ro fiscal 2;1
 SYNC;IDTC;825;IIMMUSA;1A;1;Immatriculation aux USA;1
 SYNC;IDTC;826;IDSIGCC;8S0;8;Date signature connaissance client;1
 SYNC;IDTC;834;IFPEAD;4A ;4;Fonction PPE (XVFPPEXP);1
-SYNC;IDTC;838;IVIGREN;1A;1;Vigilance renforcée (OUINON);1
+SYNC;IDTC;838;IVIGREN;1A;1;Vigilance renforcï¿½e (OUINON);1
 SYNC;IDTC;839;IFAXAD;18A ;18;Tel professionnel;1
-SYNC;IDTC;857;IWXYAD;15A;15;Référence nationale;1
+SYNC;IDTC;857;IWXYAD;15A;15;Rï¿½fï¿½rence nationale;1
 SYNC;IDTC;872;IDEXRAD;8S0;8;Date exercice fiscal;1
 SYNC;IDTC;880;ISITAD;2A;2;Situation familiale fiscale;1
 SYNC;IDTC;882;IIMPAD;1A;1;Top imposition sur revenus;1
-SYNC;IDTC;883;IIMPOTIS;1A;1;Top imposition sur société;1
+SYNC;IDTC;883;IIMPOTIS;1A;1;Top imposition sur sociï¿½tï¿½;1
 SYNC;IDTC;884;IEXRAD;6S0;6;Exercice fiscal;1
 SYNC;IDTC;890;IMNTREAD;12S2;12;Montant revenu imposable;1
-SYNC;IDTC;902;INUAD2;7S0;7;Rattachement si Collège;1
+SYNC;IDTC;902;INUAD2;7S0;7;Rattachement si Collï¿½ge;1
 SYNC;IDTC;909;IMOTIF;4A ;4;Motif avenant;1
 SYNC;IDTC;913;IFILL2;250A;250;Filler1;0
 SYNC;IDTC;1163;IFILL3;102A;102;Filler2;0
@@ -212,7 +212,7 @@ SYNC;POL;232;IREFBE;15A;15;R?f?rence B?n?ficiaire;0
 SYNC;POL;247;IWNPLAN;7S0;7;Num?ro convention (plan);1
 SYNC;POL;254;IWPAID;7S0;7;Num?ro payeur convention (plan);1
 SYNC;POL;261;IWUCLIP;7S0;7;Num?ro client convention (plan);1
-SYNC;POL;268;INUCONT;8S0;8;N°contrat entête / chapeau connu du client pour loi PACTE;1
+SYNC;POL;268;INUCONT;8S0;8;Nï¿½contrat entï¿½te / chapeau connu du client pour loi PACTE;1
 SYNC;POL;276;IEVFPO;4A;4;Enveloppe fiscale compartiment (Pacte);1
 SYNC;POL;280;IFILL1;32A;32;Filler1;0
 SYNC;POL;312;IWNPRP;8S0;8;Num?ro Proposition;1
@@ -372,7 +372,7 @@ SYNC;POL;1111;IWNPLAN;7S0;7;Num?ro convention (plan);1
 SYNC;POL;1118;IWPAIDP;7S0;7;Num?ro payeur convention (plan);1
 SYNC;POL;1125;INATSA;4A;4;Cause sinistre;1
 SYNC;POL;1129;ICDSERV;4A ;4;Code service;1
-SYNC;POL;1133;IDTRPC;8A;8;Date réception du dossier complet;1
+SYNC;POL;1133;IDTRPC;8A;8;Date rï¿½ception du dossier complet;1
 SYNC;POL;1141;IFILL2;56A;56;Filler 2;1
 SYNC;POL;1197;IFILL3;68A;68;Filler 3;1
 SYNC;POL;1265;ICODMS;7A ;7;Code Message;1
@@ -404,7 +404,7 @@ SYNC;ASS;232;IREFBE;15A;15;R?f?rence B?n?ficiaire;0
 SYNC;ASS;247;IWNPLAN;7S0;7;Num?ro convention (plan);1
 SYNC;ASS;254;IWPAID;7S0;7;Num?ro payeur convention (plan);1
 SYNC;ASS;261;IWUCLIP;7S0;7;Num?ro client convention (plan);1
-SYNC;ASS;268;INUCONT;8S0;8;N°contrat entête / chapeau connu du client pour loi PACTE;1
+SYNC;ASS;268;INUCONT;8S0;8;Nï¿½contrat entï¿½te / chapeau connu du client pour loi PACTE;1
 SYNC;ASS;276;IEVFPO;4A;4;Enveloppe fiscale compartiment (Pacte);1
 SYNC;ASS;280;IFILL1;32A;32;Filler1;0
 SYNC;ASS;312;IWNPRP;8S0;8;Num?ro Proposition;1
@@ -455,7 +455,7 @@ SYNC;ASS;779;IFILL3;250A;250;Filler3;0
 SYNC;ASS;1029;IFILL4;236A;236;Filler4;0
 SYNC;ASS;1265;ICODMS;7A;7;Code Message;1
 SYNC;ASS;1272;IMESGX;100A;100;Message Retour;1
-SYNC;ASS;544;IDRTAS;8A;8;Date estimée de départ en retraite;1
+SYNC;ASS;544;IDRTAS;8A;8;Date estimï¿½e de dï¿½part en retraite;1
 SYNC;ASX;1;DDEMDR;8S0;8;Date de la demande;0
 SYNC;ASX;9;CGAG;4S0;4;Code Agence;0
 SYNC;ASX;13;NDEMDR;12S0;12;Num?ro de la demande ;0
@@ -483,7 +483,7 @@ SYNC;ASX;232;IREFBE;15A;15;R?f?rence B?n?ficiaire;0
 SYNC;ASX;247;IWNPLAN;7S0;7;Num?ro convention (plan);1
 SYNC;ASX;254;IWPAID;7S0;7;Num?ro payeur convention (plan);1
 SYNC;ASX;261;IWUCLIP;7S0;7;Num?ro client convention (plan);1
-SYNC;ASX;268;INUCONT;8S0;8;N°contrat entête / chapeau connu du client pour loi PACTE;1
+SYNC;ASX;268;INUCONT;8S0;8;Nï¿½contrat entï¿½te / chapeau connu du client pour loi PACTE;1
 SYNC;ASX;276;IEVFPO;4A;4;Enveloppe fiscale compartiment (Pacte);1
 SYNC;ASX;280;IFILL1;32A;32;Filler1;0
 SYNC;ASX;312;IWNPRP;8S0;8;Num?ro Proposition;1
@@ -554,7 +554,7 @@ SYNC;BEN;232;IREFBE;15A;15;R?f?rence B?n?ficiaire;0
 SYNC;BEN;247;IWNPLAN;7S0;7;Num?ro convention (plan);1
 SYNC;BEN;254;IWPAID;7S0;7;Num?ro payeur convention (plan);1
 SYNC;BEN;261;IWUCLIP;7S0;7;Num?ro client convention (plan);1
-SYNC;BEN;268;INUCONT;8S0;8;N°contrat entête / chapeau connu du client pour loi PACTE;1
+SYNC;BEN;268;INUCONT;8S0;8;Nï¿½contrat entï¿½te / chapeau connu du client pour loi PACTE;1
 SYNC;BEN;276;IEVFPO;4A;4;Enveloppe fiscale compartiment (Pacte);1
 SYNC;BEN;280;IFILL1;32A;32;Filler1;0
 SYNC;BEN;312;IWNPRP;8S0;8;Num?ro Proposition;1
@@ -601,7 +601,7 @@ SYNC;GARA;232;IREFBE;15A;15;R?f?rence B?n?ficiaire;0
 SYNC;GARA;247;IWNPLAN;7S0;7;Num?ro convention (plan);1
 SYNC;GARA;254;IWPAID;7S0;7;Num?ro payeur convention (plan);1
 SYNC;GARA;261;IWUCLIP;7S0;7;Num?ro client convention (plan);1
-SYNC;GARA;268;INUCONT;8S0;8;N°contrat entête / chapeau connu du client pour loi PACTE;1
+SYNC;GARA;268;INUCONT;8S0;8;Nï¿½contrat entï¿½te / chapeau connu du client pour loi PACTE;1
 SYNC;GARA;276;IEVFPO;4A;4;Enveloppe fiscale compartiment (Pacte);1
 SYNC;GARA;280;IFILL1;32A;32;Filler1;0
 SYNC;GARA;312;IWNPRP;8S0;8;Num?ro Proposition;1
@@ -675,7 +675,7 @@ SYNC;SICP;232;IREFBE;15A;15;R?f?rence B?n?ficiaire;0
 SYNC;SICP;247;IWNPLAN;7S0;7;Num?ro convention (plan);1
 SYNC;SICP;254;IWPAID;7S0;7;Num?ro payeur convention (plan);1
 SYNC;SICP;261;IWUCLIP;7S0;7;Num?ro client convention (plan);1
-SYNC;SICP;268;INUCONT;8S0;8;N°contrat entête / chapeau connu du client pour loi PACTE;1
+SYNC;SICP;268;INUCONT;8S0;8;Nï¿½contrat entï¿½te / chapeau connu du client pour loi PACTE;1
 SYNC;SICP;276;IEVFPO;4A;4;Enveloppe fiscale compartiment (Pacte);1
 SYNC;SICP;280;IFILL1;32A;32;Filler1;0
 SYNC;SICP;312;IWNPRP;8S0;8;Num?ro Proposition;1
@@ -756,7 +756,7 @@ SYNC;MVTF;232;IREFBE;15A;15;R?f?rence B?n?ficiaire;0
 SYNC;MVTF;247;IWNPLAN;7S0;7;Num?ro convention (plan);1
 SYNC;MVTF;254;IWPAID;7S0;7;Num?ro payeur convention (plan);1
 SYNC;MVTF;261;IWUCLIP;7S0;7;Num?ro client convention (plan);1
-SYNC;MVTF;268;INUCONT;8S0;8;N°contrat entête / chapeau connu du client pour loi PACTE;1
+SYNC;MVTF;268;INUCONT;8S0;8;Nï¿½contrat entï¿½te / chapeau connu du client pour loi PACTE;1
 SYNC;MVTF;276;IEVFPO;4A;4;Enveloppe fiscale compartiment (Pacte);1
 SYNC;MVTF;280;IFILL1;32A;32;Filler1;0
 SYNC;MVTF;312;IWNPRP;8S0;8;Num?ro Proposition;1
@@ -786,7 +786,7 @@ SYNC;MVTF;502;IDEXMV;8S0;8;Date de commande;0
 SYNC;MVTF;510;IWPAID;7S0;7;Num?ro payeur;1
 SYNC;MVTF;517;IWRELE;8S0;8;Num?ro relev? pr?sent dans quittance;1
 SYNC;MVTF;525;IFILL2;42A;42;Filler;0
-SYNC;MVTF;567;ITOPDEDUC;1A;1;Top déductibilité loi Pacte (O / N / blanc);1
+SYNC;MVTF;567;ITOPDEDUC;1A;1;Top dï¿½ductibilitï¿½ loi Pacte (O / N / blanc);1
 SYNC;MVTF;568;IFILL3;442A;442;Filler;0
 SYNC;MVTF;1010;IFILL4;255A;255;Filler;0
 SYNC;MVTF;1265;ICODMS;7A;7;Code message;1
@@ -818,7 +818,7 @@ SYNC;OP;232;IREFBE;15A;15;R?f?rence B?n?ficiaire;0
 SYNC;OP;247;IWNPLAN;7S0;7;Num?ro convention (plan);1
 SYNC;OP;254;IWPAID;7S0;7;Num?ro payeur convention (plan);1
 SYNC;OP;261;IWUCLIP;7S0;7;Num?ro client convention (plan);1
-SYNC;OP;268;INUCONT;8S0;8;N°contrat entête / chapeau connu du client pour loi PACTE;1
+SYNC;OP;268;INUCONT;8S0;8;Nï¿½contrat entï¿½te / chapeau connu du client pour loi PACTE;1
 SYNC;OP;276;IEVFPO;4A;4;Enveloppe fiscale compartiment (Pacte);1
 SYNC;OP;280;IFILL1;32A;32;Filler1;0
 SYNC;OP;312;IWNPRP;8S0;8;Num?ro Proposition;1
@@ -877,7 +877,7 @@ SYNC;OP;781;IBICCB;11A;11;Code BIC;1
 SYNC;OP;792;IFILL4;143A;143;Filler 4;0
 SYNC;OP;935;IETATOP;2A;2;Etat operation;1
 SYNC;OP;937;IFILL5;20A;20;Filler 5;0
-SYNC;OP;957;ITOPDEDUC;1A;1;Top déductibilité loi Pacte (O / N / blanc);1
+SYNC;OP;957;ITOPDEDUC;1A;1;Top dï¿½ductibilitï¿½ loi Pacte (O / N / blanc);1
 SYNC;OP;958;IFILL6;307A;307;Filler 6;0
 SYNC;OP;1265;ICODMS;7A;7;Code message;1
 SYNC;OP;1272;IMESGX;100A;100;Message retour;1
@@ -908,7 +908,7 @@ SYNC;OPTI;232;IREFBE;15A;15;R?f?rence B?n?ficiaire;0
 SYNC;OPTI;247;IWNPLAN;7S0;7;Num?ro convention (plan);1
 SYNC;OPTI;254;IWPAID;7S0;7;Num?ro payeur convention (plan);1
 SYNC;OPTI;261;IWUCLIP;7S0;7;Num?ro client convention (plan);1
-SYNC;OPTI;268;INUCONT;8S0;8;N°contrat entête / chapeau connu du client pour loi PACTE;1
+SYNC;OPTI;268;INUCONT;8S0;8;Nï¿½contrat entï¿½te / chapeau connu du client pour loi PACTE;1
 SYNC;OPTI;276;IEVFPO;4A;4;Enveloppe fiscale compartiment (Pacte);1
 SYNC;OPTI;280;IFILL1;32A;32;Filler1;0
 SYNC;OPTI;312;IWNPRP;8S0;8;Num?ro Proposition;1
@@ -956,18 +956,18 @@ STAT;ZFIN;137;IWPAID;7S0;7;Identit? Payeur Interne;1
 STAT;ZFIN;144;IREFPY;15A;15;R?f?rence Payeur Externe;0
 STAT;ZFIN;159;IASSUR;7S0;7;Num?ro Assur? Interne;1
 STAT;ZFIN;166;IREFAS;15A;15;Num?ro Assur? Externe;0
-STAT;ZFIN;181;IWNUCO;8S0;8;Numéro Quittance Interne;1
+STAT;ZFIN;181;IWNUCO;8S0;8;Numï¿½ro Quittance Interne;1
 STAT;ZFIN;189;IENRGT;8S0;8;Num?ro Assur? Associ? Externe;1
-STAT;ZFIN;197;IWNRGT;13S0;13;Numéro Encaissement Interne;1
+STAT;ZFIN;197;IWNRGT;13S0;13;Numï¿½ro Encaissement Interne;1
 STAT;ZFIN;205;IENUCO;8S0;8;Numero Quittance Externe;1
 STAT;ZFIN;213;INDCH;2A;2;Indicateur chainage;0
 STAT;ZFIN;215;INCHGT;12A;12;N cheque/vire   ment;0
 STAT;ZFIN;227;IFILL1;41A;41;Filler1;0
-STAT;ZFIN;268;INUCONT;8S0;8;N°contrat entête / chapeau connu du client pour loi PACTE;1
+STAT;ZFIN;268;INUCONT;8S0;8;Nï¿½contrat entï¿½te / chapeau connu du client pour loi PACTE;1
 STAT;ZFIN;276;IEVFPO;4A;4;Enveloppe fiscale compartiment (Pacte);1
 STAT;ZFIN;280;IFILL2;11A;11;Filler2;0
-STAT;ZFIN;291;IWNUSI;8S0;8;Numéro Sinistre;1
-STAT;ZFIN;299;IREFSI;10A;10;Réf. Sinistre Externe;1
+STAT;ZFIN;291;IWNUSI;8S0;8;Numï¿½ro Sinistre;1
+STAT;ZFIN;299;IREFSI;10A;10;Rï¿½f. Sinistre Externe;1
 STAT;ZFIN;309;IFILL3;3A;3;Filler3;0
 STAT;ZFIN;312;IWNPRP;8S0;8;Num?ro Proposition;1
 STAT;ZFIN;320;FMTFCT;10A;10;Format Fonction;1
@@ -1004,7 +1004,7 @@ SYNC;IBAN;232;IREFBE;15A;15;R?f?rence B?n?ficiaire;0
 SYNC;IBAN;247;IWNPLAN;7S0;7;Num?ro convention (plan);1
 SYNC;IBAN;254;IWPAID;7S0;7;Num?ro payeur convention (plan);1
 SYNC;IBAN;261;IWUCLIP;7S0;7;Num?ro client convention (plan);1
-SYNC;IBAN;268;INUCONT;8S0;8;N°contrat entête / chapeau connu du client pour loi PACTE;1
+SYNC;IBAN;268;INUCONT;8S0;8;Nï¿½contrat entï¿½te / chapeau connu du client pour loi PACTE;1
 SYNC;IBAN;276;IEVFPO;4A;4;Enveloppe fiscale compartiment (Pacte);1
 SYNC;IBAN;280;IFILL1;32A;32;Filler1;0
 SYNC;IBAN;312;IWNPRP;8S0;8;Num?ro Proposition;1
@@ -1067,7 +1067,7 @@ SYNC;OPPO;232;IREFBE;15A;15;R?f?rence B?n?ficiaire;0
 SYNC;OPPO;247;IWNPLAN;7S0;7;Num?ro convention (plan);1
 SYNC;OPPO;254;IWPAID;7S0;7;Num?ro payeur convention (plan);1
 SYNC;OPPO;261;IWUCLIP;7S0;7;Num?ro client convention (plan);1
-SYNC;OPPO;268;INUCONT;8S0;8;N°contrat entête / chapeau connu du client pour loi PACTE;1
+SYNC;OPPO;268;INUCONT;8S0;8;Nï¿½contrat entï¿½te / chapeau connu du client pour loi PACTE;1
 SYNC;OPPO;276;IEVFPO;4A;4;Enveloppe fiscale compartiment (Pacte);1
 SYNC;OPPO;280;IFILL1;32A;32;Filler1;0
 SYNC;OPPO;312;IWNPRP;8S0;8;Num?ro Proposition;1
@@ -1123,7 +1123,7 @@ SYNC;TXNG;232;IREFBE;15A;15;R?f?rence B?n?ficiaire;0
 SYNC;TXNG;247;IWNPLAN;7S0;7;Num?ro convention (plan);1
 SYNC;TXNG;254;IWPAID;7S0;7;Num?ro payeur convention (plan);1
 SYNC;TXNG;261;IWUCLIP;7S0;7;Num?ro client convention (plan);1
-SYNC;TXNG;268;INUCONT;8S0;8;N°contrat entête / chapeau connu du client pour loi PACTE;1
+SYNC;TXNG;268;INUCONT;8S0;8;Nï¿½contrat entï¿½te / chapeau connu du client pour loi PACTE;1
 SYNC;TXNG;276;IEVFPO;4A;4;Enveloppe fiscale compartiment (Pacte);1
 SYNC;TXNG;280;IFILL1;32A;32;Filler1;0
 SYNC;TXNG;312;IWNPRP;8S0;8;Num?ro Proposition;1
@@ -1173,7 +1173,7 @@ SYNC;CONV;232;IREFBE;15A;15;R?f?rence B?n?ficiaire;0
 SYNC;CONV;247;IWNPLAN;7S0;7;Num?ro convention (plan);1
 SYNC;CONV;254;IWPAID;7S0;7;Num?ro payeur convention (plan);1
 SYNC;CONV;261;IWUCLIP;7S0;7;Num?ro client convention (plan);1
-SYNC;CONV;268;INUCONT;8S0;8;N°contrat entête / chapeau connu du client pour loi PACTE;1
+SYNC;CONV;268;INUCONT;8S0;8;Nï¿½contrat entï¿½te / chapeau connu du client pour loi PACTE;1
 SYNC;CONV;276;IEVFPO;4A;4;Enveloppe fiscale compartiment (Pacte);1
 SYNC;CONV;280;IFILL1;32A;32;Filler1;0
 SYNC;CONV;312;IWNPRP;8S0;8;Num?ro Proposition;1
@@ -1243,7 +1243,7 @@ SYNC;MAND;232;IREFBE;15A;15;R?f?rence B?n?ficiaire;0
 SYNC;MAND;247;IWNPLAN;7S0;7;Num?ro convention (plan);1
 SYNC;MAND;254;IWPAID;7S0;7;Num?ro payeur convention (plan);1
 SYNC;MAND;261;IWUCLIP;7S0;7;Num?ro client convention (plan);1
-SYNC;MAND;268;INUCONT;8S0;8;N°contrat entête / chapeau connu du client pour loi PACTE;1
+SYNC;MAND;268;INUCONT;8S0;8;Nï¿½contrat entï¿½te / chapeau connu du client pour loi PACTE;1
 SYNC;MAND;276;IEVFPO;4A;4;Enveloppe fiscale compartiment (Pacte);1
 SYNC;MAND;280;IFILL1;32A;32;Filler1;0
 SYNC;MAND;312;IWNPRP;8S0;8;Num?ro Proposition;1
@@ -1289,7 +1289,7 @@ SYNC;TXCV;232;IREFBE;15A;15;R?f?rence B?n?ficiaire;0
 SYNC;TXCV;247;IWNPLAN;7S0;7;Num?ro convention (plan);1
 SYNC;TXCV;254;IWPAID;7S0;7;Num?ro payeur convention (plan);1
 SYNC;TXCV;261;IWUCLIP;7S0;7;Num?ro client convention (plan);1
-SYNC;TXCV;268;INUCONT;8S0;8;N°contrat entête / chapeau connu du client pour loi PACTE;1
+SYNC;TXCV;268;INUCONT;8S0;8;Nï¿½contrat entï¿½te / chapeau connu du client pour loi PACTE;1
 SYNC;TXCV;276;IEVFPO;4A;4;Enveloppe fiscale compartiment (Pacte);1
 SYNC;TXCV;280;IFILL1;32A;32;Filler1;0
 SYNC;TXCV;312;IWNPRP;8S0;8;Num?ro Proposition;1
